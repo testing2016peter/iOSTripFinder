@@ -1,0 +1,889 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3569BA9F5E22E22FB6C26833 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDB318572948DA26B839846 /* libPods.a */; };
+		F738F92B1C9553BD00545537 /* APTripFinderService.m in Sources */ = {isa = PBXBuildFile; fileRef = F738F92A1C9553BD00545537 /* APTripFinderService.m */; };
+		F738F9321C9554DB00545537 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F738F9301C9554DB00545537 /* SignInViewController.m */; };
+		F738F9331C9554DB00545537 /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F738F9311C9554DB00545537 /* SignInViewController.xib */; };
+		F738F9381C955E1100545537 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F738F9361C955E1100545537 /* UserViewController.m */; };
+		F738F9391C955E1100545537 /* UserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F738F9371C955E1100545537 /* UserViewController.xib */; };
+		F738F93D1C9565BF00545537 /* APTripFinderBaseJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F738F93C1C9565BF00545537 /* APTripFinderBaseJSONModel.m */; };
+		F738F9401C9565E600545537 /* APTripFinderUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F738F93F1C9565E600545537 /* APTripFinderUser.m */; };
+		F738F9431C95671A00545537 /* APTripFinderAppConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = F738F9421C95671A00545537 /* APTripFinderAppConstant.m */; };
+		F738F9461C95694000545537 /* APTripFinderConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F738F9451C95694000545537 /* APTripFinderConfig.m */; };
+		F7606FA31CA7D4C5004CE9A4 /* SignUpNickNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7606FA11CA7D4C5004CE9A4 /* SignUpNickNameViewController.m */; };
+		F7606FA41CA7D4C5004CE9A4 /* SignUpNickNameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7606FA21CA7D4C5004CE9A4 /* SignUpNickNameViewController.xib */; };
+		F7606FA81CA7D71C004CE9A4 /* SignUpGenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7606FA61CA7D71C004CE9A4 /* SignUpGenderViewController.m */; };
+		F7606FA91CA7D71C004CE9A4 /* SignUpGenderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7606FA71CA7D71C004CE9A4 /* SignUpGenderViewController.xib */; };
+		F7606FB51CA7DA4E004CE9A4 /* APTripFinderCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7606FB41CA7DA4E004CE9A4 /* APTripFinderCacheManager.m */; };
+		F7606FB81CA7DAEE004CE9A4 /* APTripFinderCacheData.m in Sources */ = {isa = PBXBuildFile; fileRef = F7606FB71CA7DAEE004CE9A4 /* APTripFinderCacheData.m */; };
+		F7606FBC1CA7E386004CE9A4 /* SignUpSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7606FBA1CA7E386004CE9A4 /* SignUpSuccessViewController.m */; };
+		F7606FBD1CA7E386004CE9A4 /* SignUpSuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7606FBB1CA7E386004CE9A4 /* SignUpSuccessViewController.xib */; };
+		F7606FC21CA7EE6D004CE9A4 /* SearchListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7606FC01CA7EE6D004CE9A4 /* SearchListViewController.m */; };
+		F7606FC31CA7EE6D004CE9A4 /* SearchListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7606FC11CA7EE6D004CE9A4 /* SearchListViewController.xib */; };
+		F7A8E31E1C95A80200200A91 /* libFlurry_7.5.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A8E1F91C95A80100200A91 /* libFlurry_7.5.2.a */; };
+		F7A8E31F1C95A80200200A91 /* libFlurryWatch_7.5.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A8E1FA1C95A80100200A91 /* libFlurryWatch_7.5.2.a */; };
+		F7A8E42C1C95A82600200A91 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A8E42B1C95A82600200A91 /* Security.framework */; };
+		F7A8E4301C95A8F300200A91 /* APTripFinderTrackUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A8E42F1C95A8F300200A91 /* APTripFinderTrackUtil.m */; };
+		F7A8E4331C95A96900200A91 /* APTripFinderTrackConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A8E4321C95A96900200A91 /* APTripFinderTrackConstant.m */; };
+		F7A8E4361C95AA6700200A91 /* TripFinderBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A8E4351C95AA6700200A91 /* TripFinderBaseViewController.m */; };
+		F7A976581C954F2900DA57B8 /* APTripFinderClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A976571C954F2900DA57B8 /* APTripFinderClient.m */; };
+		F7C93DF91C9D9E57001C2028 /* APTripFinderLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C93DF81C9D9E57001C2028 /* APTripFinderLocationManager.m */; };
+		F7C93E041C9DAC20001C2028 /* SexSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C93E031C9DAC20001C2028 /* SexSelectView.m */; };
+		F7C93E061C9DAC32001C2028 /* SexSelectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7C93E051C9DAC32001C2028 /* SexSelectView.xib */; };
+		F7C93E0E1C9DAEF2001C2028 /* APTripFinderLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C93E0D1C9DAEF2001C2028 /* APTripFinderLocation.m */; };
+		F7ED9A8B1C9549B1006EFB12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ED9A8A1C9549B1006EFB12 /* main.m */; };
+		F7ED9A8E1C9549B1006EFB12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ED9A8D1C9549B1006EFB12 /* AppDelegate.m */; };
+		F7ED9A941C9549B1006EFB12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7ED9A921C9549B1006EFB12 /* Main.storyboard */; };
+		F7ED9A961C9549B1006EFB12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7ED9A951C9549B1006EFB12 /* Assets.xcassets */; };
+		F7ED9A991C9549B1006EFB12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7ED9A971C9549B1006EFB12 /* LaunchScreen.storyboard */; };
+		F7ED9AA41C9549B1006EFB12 /* tripFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ED9AA31C9549B1006EFB12 /* tripFinderTests.m */; };
+		F7ED9AAF1C9549B1006EFB12 /* tripFinderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ED9AAE1C9549B1006EFB12 /* tripFinderUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7ED9AA01C9549B1006EFB12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7ED9A7E1C9549B1006EFB12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7ED9A851C9549B1006EFB12;
+			remoteInfo = tripFinder;
+		};
+		F7ED9AAB1C9549B1006EFB12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7ED9A7E1C9549B1006EFB12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7ED9A851C9549B1006EFB12;
+			remoteInfo = tripFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BEFE9B73F7D9767A66A614A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		AEDB318572948DA26B839846 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F738F9291C9553BD00545537 /* APTripFinderService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTripFinderService.h; sourceTree = "<group>"; };
+		F738F92A1C9553BD00545537 /* APTripFinderService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTripFinderService.m; sourceTree = "<group>"; };
+		F738F92F1C9554DB00545537 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		F738F9301C9554DB00545537 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		F738F9311C9554DB00545537 /* SignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
+		F738F9351C955E1100545537 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		F738F9361C955E1100545537 /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		F738F9371C955E1100545537 /* UserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserViewController.xib; sourceTree = "<group>"; };
+		F738F93B1C9565BF00545537 /* APTripFinderBaseJSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTripFinderBaseJSONModel.h; sourceTree = "<group>"; };
+		F738F93C1C9565BF00545537 /* APTripFinderBaseJSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTripFinderBaseJSONModel.m; sourceTree = "<group>"; };
+		F738F93E1C9565E600545537 /* APTripFinderUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTripFinderUser.h; sourceTree = "<group>"; };
+		F738F93F1C9565E600545537 /* APTripFinderUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTripFinderUser.m; sourceTree = "<group>"; };
+		F738F9411C95671A00545537 /* APTripFinderAppConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTripFinderAppConstant.h; sourceTree = "<group>"; };
+		F738F9421C95671A00545537 /* APTripFinderAppConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTripFinderAppConstant.m; sourceTree = "<group>"; };
+		F738F9441C95694000545537 /* APTripFinderConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APTripFinderConfig.h; path = tripFinder/Src/Util/Model/APTripFinderConfig.h; sourceTree = SOURCE_ROOT; };
+		F738F9451C95694000545537 /* APTripFinderConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APTripFinderConfig.m; path = tripFinder/Src/Util/Model/APTripFinderConfig.m; sourceTree = SOURCE_ROOT; };
+		F738F9471C9570E300545537 /* APTripFinderModels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APTripFinderModels.h; sourceTree = "<group>"; };
+		F7606FA01CA7D4C5004CE9A4 /* SignUpNickNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpNickNameViewController.h; sourceTree = "<group>"; };
+		F7606FA11CA7D4C5004CE9A4 /* SignUpNickNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpNickNameViewController.m; sourceTree = "<group>"; };
+		F7606FA21CA7D4C5004CE9A4 /* SignUpNickNameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpNickNameViewController.xib; sourceTree = "<group>"; };
+		F7606FA51CA7D71C004CE9A4 /* SignUpGenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpGenderViewController.h; sourceTree = "<group>"; };
+		F7606FA61CA7D71C004CE9A4 /* SignUpGenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpGenderViewController.m; sourceTree = "<group>"; };
+		F7606FA71CA7D71C004CE9A4 /* SignUpGenderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpGenderViewController.xib; sourceTree = "<group>"; };
+		F7606FB31CA7DA4E004CE9A4 /* APTripFinderCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTripFinderCacheManager.h; sourceTree = "<group>"; };
+		F7606FB41CA7DA4E004CE9A4 /* APTripFinderCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTripFinderCacheManager.m; sourceTree = "<group>"; };
+		F7606FB61CA7DAEE004CE9A4 /* APTripFinderCacheData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTripFinderCacheData.h; sourceTree = "<group>"; };
+		F7606FB71CA7DAEE004CE9A4 /* APTripFinderCacheData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTripFinderCacheData.m; sourceTree = "<group>"; };
+		F7606FB91CA7E386004CE9A4 /* SignUpSuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpSuccessViewController.h; sourceTree = "<group>"; };
+		F7606FBA1CA7E386004CE9A4 /* SignUpSuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpSuccessViewController.m; sourceTree = "<group>"; };
+		F7606FBB1CA7E386004CE9A4 /* SignUpSuccessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpSuccessViewController.xib; sourceTree = "<group>"; };
+		F7606FBF1CA7EE6D004CE9A4 /* SearchListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchListViewController.h; sourceTree = "<group>"; };
+		F7606FC01CA7EE6D004CE9A4 /* SearchListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchListViewController.m; sourceTree = "<group>"; };
+		F7606FC11CA7EE6D004CE9A4 /* SearchListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchListViewController.xib; sourceTree = "<group>"; };
+		F7A8E1F71C95A80100200A91 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		F7A8E1F81C95A80100200A91 /* FlurryWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryWatch.h; sourceTree = "<group>"; };
+		F7A8E1F91C95A80100200A91 /* libFlurry_7.5.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_7.5.2.a; sourceTree = "<group>"; };
+		F7A8E1FA1C95A80100200A91 /* libFlurryWatch_7.5.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryWatch_7.5.2.a; sourceTree = "<group>"; };
+		F7A8E42B1C95A82600200A91 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		F7A8E42E1C95A8F300200A91 /* APTripFinderTrackUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTripFinderTrackUtil.h; sourceTree = "<group>"; };
+		F7A8E42F1C95A8F300200A91 /* APTripFinderTrackUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTripFinderTrackUtil.m; sourceTree = "<group>"; };
+		F7A8E4311C95A96900200A91 /* APTripFinderTrackConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTripFinderTrackConstant.h; sourceTree = "<group>"; };
+		F7A8E4321C95A96900200A91 /* APTripFinderTrackConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTripFinderTrackConstant.m; sourceTree = "<group>"; };
+		F7A8E4341C95AA6700200A91 /* TripFinderBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripFinderBaseViewController.h; sourceTree = "<group>"; };
+		F7A8E4351C95AA6700200A91 /* TripFinderBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripFinderBaseViewController.m; sourceTree = "<group>"; };
+		F7A976561C954F2900DA57B8 /* APTripFinderClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTripFinderClient.h; sourceTree = "<group>"; };
+		F7A976571C954F2900DA57B8 /* APTripFinderClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTripFinderClient.m; sourceTree = "<group>"; };
+		F7C93DF71C9D9E57001C2028 /* APTripFinderLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTripFinderLocationManager.h; sourceTree = "<group>"; };
+		F7C93DF81C9D9E57001C2028 /* APTripFinderLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTripFinderLocationManager.m; sourceTree = "<group>"; };
+		F7C93E021C9DAC20001C2028 /* SexSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SexSelectView.h; sourceTree = "<group>"; };
+		F7C93E031C9DAC20001C2028 /* SexSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SexSelectView.m; sourceTree = "<group>"; };
+		F7C93E051C9DAC32001C2028 /* SexSelectView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SexSelectView.xib; sourceTree = "<group>"; };
+		F7C93E0C1C9DAEF2001C2028 /* APTripFinderLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTripFinderLocation.h; sourceTree = "<group>"; };
+		F7C93E0D1C9DAEF2001C2028 /* APTripFinderLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTripFinderLocation.m; sourceTree = "<group>"; };
+		F7ED9A861C9549B1006EFB12 /* tripFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tripFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7ED9A8A1C9549B1006EFB12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7ED9A8C1C9549B1006EFB12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7ED9A8D1C9549B1006EFB12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7ED9A931C9549B1006EFB12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7ED9A951C9549B1006EFB12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7ED9A981C9549B1006EFB12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7ED9A9A1C9549B1006EFB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7ED9A9F1C9549B1006EFB12 /* tripFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tripFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7ED9AA31C9549B1006EFB12 /* tripFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tripFinderTests.m; sourceTree = "<group>"; };
+		F7ED9AA51C9549B1006EFB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7ED9AAA1C9549B1006EFB12 /* tripFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tripFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7ED9AAE1C9549B1006EFB12 /* tripFinderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tripFinderUITests.m; sourceTree = "<group>"; };
+		F7ED9AB01C9549B1006EFB12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFC9406B791B4A09C06476C2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7ED9A831C9549B1006EFB12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A8E42C1C95A82600200A91 /* Security.framework in Frameworks */,
+				F7A8E31E1C95A80200200A91 /* libFlurry_7.5.2.a in Frameworks */,
+				F7A8E31F1C95A80200200A91 /* libFlurryWatch_7.5.2.a in Frameworks */,
+				3569BA9F5E22E22FB6C26833 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ED9A9C1C9549B1006EFB12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ED9AA71C9549B1006EFB12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C018CC7694BC23B2516E1219 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BEFE9B73F7D9767A66A614A /* Pods.debug.xcconfig */,
+				FFC9406B791B4A09C06476C2 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9CC125B75D13B8F89927251 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7A8E42B1C95A82600200A91 /* Security.framework */,
+				AEDB318572948DA26B839846 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F738F92E1C9554DB00545537 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				F738F92F1C9554DB00545537 /* SignInViewController.h */,
+				F738F9301C9554DB00545537 /* SignInViewController.m */,
+				F738F9311C9554DB00545537 /* SignInViewController.xib */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		F738F9341C955DFC00545537 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				F738F9351C955E1100545537 /* UserViewController.h */,
+				F738F9361C955E1100545537 /* UserViewController.m */,
+				F738F9371C955E1100545537 /* UserViewController.xib */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		F738F93A1C95659F00545537 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F738F9441C95694000545537 /* APTripFinderConfig.h */,
+				F738F9451C95694000545537 /* APTripFinderConfig.m */,
+				F738F93B1C9565BF00545537 /* APTripFinderBaseJSONModel.h */,
+				F738F93C1C9565BF00545537 /* APTripFinderBaseJSONModel.m */,
+				F738F93E1C9565E600545537 /* APTripFinderUser.h */,
+				F738F93F1C9565E600545537 /* APTripFinderUser.m */,
+				F738F9471C9570E300545537 /* APTripFinderModels.h */,
+				F7C93E0C1C9DAEF2001C2028 /* APTripFinderLocation.h */,
+				F7C93E0D1C9DAEF2001C2028 /* APTripFinderLocation.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F7606FB21CA7DA4E004CE9A4 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				F7606FB31CA7DA4E004CE9A4 /* APTripFinderCacheManager.h */,
+				F7606FB41CA7DA4E004CE9A4 /* APTripFinderCacheManager.m */,
+				F7606FB61CA7DAEE004CE9A4 /* APTripFinderCacheData.h */,
+				F7606FB71CA7DAEE004CE9A4 /* APTripFinderCacheData.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		F7606FBE1CA7EE54004CE9A4 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				F7606FBF1CA7EE6D004CE9A4 /* SearchListViewController.h */,
+				F7606FC01CA7EE6D004CE9A4 /* SearchListViewController.m */,
+				F7606FC11CA7EE6D004CE9A4 /* SearchListViewController.xib */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		F7A8E1F51C95A80100200A91 /* Flurry-iOS-7.5.2 */ = {
+			isa = PBXGroup;
+			children = (
+				F7A8E1F61C95A80100200A91 /* Flurry */,
+			);
+			path = "Flurry-iOS-7.5.2";
+			sourceTree = "<group>";
+		};
+		F7A8E1F61C95A80100200A91 /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				F7A8E1F71C95A80100200A91 /* Flurry.h */,
+				F7A8E1F81C95A80100200A91 /* FlurryWatch.h */,
+				F7A8E1F91C95A80100200A91 /* libFlurry_7.5.2.a */,
+				F7A8E1FA1C95A80100200A91 /* libFlurryWatch_7.5.2.a */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
+		F7A8E42D1C95A8DA00200A91 /* Track */ = {
+			isa = PBXGroup;
+			children = (
+				F7A8E42E1C95A8F300200A91 /* APTripFinderTrackUtil.h */,
+				F7A8E42F1C95A8F300200A91 /* APTripFinderTrackUtil.m */,
+				F7A8E4311C95A96900200A91 /* APTripFinderTrackConstant.h */,
+				F7A8E4321C95A96900200A91 /* APTripFinderTrackConstant.m */,
+			);
+			path = Track;
+			sourceTree = "<group>";
+		};
+		F7A9764D1C954D8D00DA57B8 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				F7606FBE1CA7EE54004CE9A4 /* Search */,
+				F7C93DFA1C9DAB48001C2028 /* Signup */,
+				F738F9341C955DFC00545537 /* User */,
+				F738F92E1C9554DB00545537 /* SignIn */,
+				F7A9764F1C954D8D00DA57B8 /* Util */,
+				F738F9411C95671A00545537 /* APTripFinderAppConstant.h */,
+				F738F9421C95671A00545537 /* APTripFinderAppConstant.m */,
+				F7A8E4341C95AA6700200A91 /* TripFinderBaseViewController.h */,
+				F7A8E4351C95AA6700200A91 /* TripFinderBaseViewController.m */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		F7A9764F1C954D8D00DA57B8 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F7606FB21CA7DA4E004CE9A4 /* Cache */,
+				F7C93E001C9DABE1001C2028 /* Views */,
+				F7C93DF61C9D9E3D001C2028 /* Location */,
+				F7A8E42D1C95A8DA00200A91 /* Track */,
+				F738F93A1C95659F00545537 /* Model */,
+				F7A976551C954DC300DA57B8 /* Client */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		F7A976551C954DC300DA57B8 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				F7A976561C954F2900DA57B8 /* APTripFinderClient.h */,
+				F7A976571C954F2900DA57B8 /* APTripFinderClient.m */,
+				F738F9291C9553BD00545537 /* APTripFinderService.h */,
+				F738F92A1C9553BD00545537 /* APTripFinderService.m */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		F7C93DF61C9D9E3D001C2028 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				F7C93DF71C9D9E57001C2028 /* APTripFinderLocationManager.h */,
+				F7C93DF81C9D9E57001C2028 /* APTripFinderLocationManager.m */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		F7C93DFA1C9DAB48001C2028 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				F7606FA01CA7D4C5004CE9A4 /* SignUpNickNameViewController.h */,
+				F7606FA11CA7D4C5004CE9A4 /* SignUpNickNameViewController.m */,
+				F7606FA21CA7D4C5004CE9A4 /* SignUpNickNameViewController.xib */,
+				F7606FA51CA7D71C004CE9A4 /* SignUpGenderViewController.h */,
+				F7606FA61CA7D71C004CE9A4 /* SignUpGenderViewController.m */,
+				F7606FA71CA7D71C004CE9A4 /* SignUpGenderViewController.xib */,
+				F7606FB91CA7E386004CE9A4 /* SignUpSuccessViewController.h */,
+				F7606FBA1CA7E386004CE9A4 /* SignUpSuccessViewController.m */,
+				F7606FBB1CA7E386004CE9A4 /* SignUpSuccessViewController.xib */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		F7C93E001C9DABE1001C2028 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7C93E011C9DABF7001C2028 /* UsersData */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F7C93E011C9DABF7001C2028 /* UsersData */ = {
+			isa = PBXGroup;
+			children = (
+				F7C93E021C9DAC20001C2028 /* SexSelectView.h */,
+				F7C93E031C9DAC20001C2028 /* SexSelectView.m */,
+				F7C93E051C9DAC32001C2028 /* SexSelectView.xib */,
+			);
+			path = UsersData;
+			sourceTree = "<group>";
+		};
+		F7ED9A7D1C9549B1006EFB12 = {
+			isa = PBXGroup;
+			children = (
+				F7A8E1F51C95A80100200A91 /* Flurry-iOS-7.5.2 */,
+				F7ED9A881C9549B1006EFB12 /* tripFinder */,
+				F7ED9AA21C9549B1006EFB12 /* tripFinderTests */,
+				F7ED9AAD1C9549B1006EFB12 /* tripFinderUITests */,
+				F7ED9A871C9549B1006EFB12 /* Products */,
+				C018CC7694BC23B2516E1219 /* Pods */,
+				D9CC125B75D13B8F89927251 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7ED9A871C9549B1006EFB12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7ED9A861C9549B1006EFB12 /* tripFinder.app */,
+				F7ED9A9F1C9549B1006EFB12 /* tripFinderTests.xctest */,
+				F7ED9AAA1C9549B1006EFB12 /* tripFinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7ED9A881C9549B1006EFB12 /* tripFinder */ = {
+			isa = PBXGroup;
+			children = (
+				F7A9764D1C954D8D00DA57B8 /* Src */,
+				F7ED9A8C1C9549B1006EFB12 /* AppDelegate.h */,
+				F7ED9A8D1C9549B1006EFB12 /* AppDelegate.m */,
+				F7ED9A921C9549B1006EFB12 /* Main.storyboard */,
+				F7ED9A951C9549B1006EFB12 /* Assets.xcassets */,
+				F7ED9A971C9549B1006EFB12 /* LaunchScreen.storyboard */,
+				F7ED9A9A1C9549B1006EFB12 /* Info.plist */,
+				F7ED9A891C9549B1006EFB12 /* Supporting Files */,
+			);
+			path = tripFinder;
+			sourceTree = "<group>";
+		};
+		F7ED9A891C9549B1006EFB12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7ED9A8A1C9549B1006EFB12 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7ED9AA21C9549B1006EFB12 /* tripFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7ED9AA31C9549B1006EFB12 /* tripFinderTests.m */,
+				F7ED9AA51C9549B1006EFB12 /* Info.plist */,
+			);
+			path = tripFinderTests;
+			sourceTree = "<group>";
+		};
+		F7ED9AAD1C9549B1006EFB12 /* tripFinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F7ED9AAE1C9549B1006EFB12 /* tripFinderUITests.m */,
+				F7ED9AB01C9549B1006EFB12 /* Info.plist */,
+			);
+			path = tripFinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7ED9A851C9549B1006EFB12 /* tripFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7ED9AB31C9549B1006EFB12 /* Build configuration list for PBXNativeTarget "tripFinder" */;
+			buildPhases = (
+				6381159391D81FDB0A427775 /* Check Pods Manifest.lock */,
+				F7ED9A821C9549B1006EFB12 /* Sources */,
+				F7ED9A831C9549B1006EFB12 /* Frameworks */,
+				F7ED9A841C9549B1006EFB12 /* Resources */,
+				D15EBAA665205DD676C96D44 /* Embed Pods Frameworks */,
+				4D962F321F7416D39C3F8742 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tripFinder;
+			productName = tripFinder;
+			productReference = F7ED9A861C9549B1006EFB12 /* tripFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7ED9A9E1C9549B1006EFB12 /* tripFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7ED9AB61C9549B1006EFB12 /* Build configuration list for PBXNativeTarget "tripFinderTests" */;
+			buildPhases = (
+				F7ED9A9B1C9549B1006EFB12 /* Sources */,
+				F7ED9A9C1C9549B1006EFB12 /* Frameworks */,
+				F7ED9A9D1C9549B1006EFB12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7ED9AA11C9549B1006EFB12 /* PBXTargetDependency */,
+			);
+			name = tripFinderTests;
+			productName = tripFinderTests;
+			productReference = F7ED9A9F1C9549B1006EFB12 /* tripFinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F7ED9AA91C9549B1006EFB12 /* tripFinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7ED9AB91C9549B1006EFB12 /* Build configuration list for PBXNativeTarget "tripFinderUITests" */;
+			buildPhases = (
+				F7ED9AA61C9549B1006EFB12 /* Sources */,
+				F7ED9AA71C9549B1006EFB12 /* Frameworks */,
+				F7ED9AA81C9549B1006EFB12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7ED9AAC1C9549B1006EFB12 /* PBXTargetDependency */,
+			);
+			name = tripFinderUITests;
+			productName = tripFinderUITests;
+			productReference = F7ED9AAA1C9549B1006EFB12 /* tripFinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7ED9A7E1C9549B1006EFB12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Anson Ng";
+				TargetAttributes = {
+					F7ED9A851C9549B1006EFB12 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F7ED9A9E1C9549B1006EFB12 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F7ED9A851C9549B1006EFB12;
+					};
+					F7ED9AA91C9549B1006EFB12 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F7ED9A851C9549B1006EFB12;
+					};
+				};
+			};
+			buildConfigurationList = F7ED9A811C9549B1006EFB12 /* Build configuration list for PBXProject "tripFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7ED9A7D1C9549B1006EFB12;
+			productRefGroup = F7ED9A871C9549B1006EFB12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7ED9A851C9549B1006EFB12 /* tripFinder */,
+				F7ED9A9E1C9549B1006EFB12 /* tripFinderTests */,
+				F7ED9AA91C9549B1006EFB12 /* tripFinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7ED9A841C9549B1006EFB12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7606FA41CA7D4C5004CE9A4 /* SignUpNickNameViewController.xib in Resources */,
+				F7606FA91CA7D71C004CE9A4 /* SignUpGenderViewController.xib in Resources */,
+				F7606FC31CA7EE6D004CE9A4 /* SearchListViewController.xib in Resources */,
+				F7C93E061C9DAC32001C2028 /* SexSelectView.xib in Resources */,
+				F738F9331C9554DB00545537 /* SignInViewController.xib in Resources */,
+				F738F9391C955E1100545537 /* UserViewController.xib in Resources */,
+				F7ED9A991C9549B1006EFB12 /* LaunchScreen.storyboard in Resources */,
+				F7606FBD1CA7E386004CE9A4 /* SignUpSuccessViewController.xib in Resources */,
+				F7ED9A961C9549B1006EFB12 /* Assets.xcassets in Resources */,
+				F7ED9A941C9549B1006EFB12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ED9A9D1C9549B1006EFB12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ED9AA81C9549B1006EFB12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D962F321F7416D39C3F8742 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6381159391D81FDB0A427775 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D15EBAA665205DD676C96D44 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7ED9A821C9549B1006EFB12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7606FB51CA7DA4E004CE9A4 /* APTripFinderCacheManager.m in Sources */,
+				F738F9381C955E1100545537 /* UserViewController.m in Sources */,
+				F738F9401C9565E600545537 /* APTripFinderUser.m in Sources */,
+				F7A8E4361C95AA6700200A91 /* TripFinderBaseViewController.m in Sources */,
+				F7606FB81CA7DAEE004CE9A4 /* APTripFinderCacheData.m in Sources */,
+				F7A8E4331C95A96900200A91 /* APTripFinderTrackConstant.m in Sources */,
+				F7A976581C954F2900DA57B8 /* APTripFinderClient.m in Sources */,
+				F7606FA81CA7D71C004CE9A4 /* SignUpGenderViewController.m in Sources */,
+				F7606FC21CA7EE6D004CE9A4 /* SearchListViewController.m in Sources */,
+				F7C93E041C9DAC20001C2028 /* SexSelectView.m in Sources */,
+				F7606FA31CA7D4C5004CE9A4 /* SignUpNickNameViewController.m in Sources */,
+				F738F92B1C9553BD00545537 /* APTripFinderService.m in Sources */,
+				F7A8E4301C95A8F300200A91 /* APTripFinderTrackUtil.m in Sources */,
+				F7ED9A8E1C9549B1006EFB12 /* AppDelegate.m in Sources */,
+				F7C93DF91C9D9E57001C2028 /* APTripFinderLocationManager.m in Sources */,
+				F738F9321C9554DB00545537 /* SignInViewController.m in Sources */,
+				F7C93E0E1C9DAEF2001C2028 /* APTripFinderLocation.m in Sources */,
+				F7ED9A8B1C9549B1006EFB12 /* main.m in Sources */,
+				F7606FBC1CA7E386004CE9A4 /* SignUpSuccessViewController.m in Sources */,
+				F738F93D1C9565BF00545537 /* APTripFinderBaseJSONModel.m in Sources */,
+				F738F9431C95671A00545537 /* APTripFinderAppConstant.m in Sources */,
+				F738F9461C95694000545537 /* APTripFinderConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ED9A9B1C9549B1006EFB12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ED9AA41C9549B1006EFB12 /* tripFinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7ED9AA61C9549B1006EFB12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ED9AAF1C9549B1006EFB12 /* tripFinderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7ED9AA11C9549B1006EFB12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7ED9A851C9549B1006EFB12 /* tripFinder */;
+			targetProxy = F7ED9AA01C9549B1006EFB12 /* PBXContainerItemProxy */;
+		};
+		F7ED9AAC1C9549B1006EFB12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7ED9A851C9549B1006EFB12 /* tripFinder */;
+			targetProxy = F7ED9AAB1C9549B1006EFB12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7ED9A921C9549B1006EFB12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7ED9A931C9549B1006EFB12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7ED9A971C9549B1006EFB12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7ED9A981C9549B1006EFB12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7ED9AB11C9549B1006EFB12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7ED9AB21C9549B1006EFB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7ED9AB41C9549B1006EFB12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BEFE9B73F7D9767A66A614A /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tripFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flurry-iOS-7.5.2/Flurry",
+					"$(PROJECT_DIR)/Flurry-iOS-7.5.2/FlurryAds",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ap.tripFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7ED9AB51C9549B1006EFB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFC9406B791B4A09C06476C2 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tripFinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flurry-iOS-7.5.2/Flurry",
+					"$(PROJECT_DIR)/Flurry-iOS-7.5.2/FlurryAds",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ap.tripFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F7ED9AB71C9549B1006EFB12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tripFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ap.tripFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tripFinder.app/tripFinder";
+			};
+			name = Debug;
+		};
+		F7ED9AB81C9549B1006EFB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tripFinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ap.tripFinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tripFinder.app/tripFinder";
+			};
+			name = Release;
+		};
+		F7ED9ABA1C9549B1006EFB12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tripFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ap.tripFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tripFinder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F7ED9ABB1C9549B1006EFB12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tripFinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ap.tripFinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tripFinder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7ED9A811C9549B1006EFB12 /* Build configuration list for PBXProject "tripFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7ED9AB11C9549B1006EFB12 /* Debug */,
+				F7ED9AB21C9549B1006EFB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7ED9AB31C9549B1006EFB12 /* Build configuration list for PBXNativeTarget "tripFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7ED9AB41C9549B1006EFB12 /* Debug */,
+				F7ED9AB51C9549B1006EFB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7ED9AB61C9549B1006EFB12 /* Build configuration list for PBXNativeTarget "tripFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7ED9AB71C9549B1006EFB12 /* Debug */,
+				F7ED9AB81C9549B1006EFB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7ED9AB91C9549B1006EFB12 /* Build configuration list for PBXNativeTarget "tripFinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7ED9ABA1C9549B1006EFB12 /* Debug */,
+				F7ED9ABB1C9549B1006EFB12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7ED9A7E1C9549B1006EFB12 /* Project object */;
+}
