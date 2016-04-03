@@ -7,9 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import "SignInViewController.h"
+#import "APSignInViewController.h"
 #import "Flurry.h"
-#import "APTripFinderTrackUtil.h"
+#import "APTrackUtil.h"
 @interface AppDelegate ()
 
 @end
@@ -19,9 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [APTripFinderTrackUtil startSession];
+    [APTrackUtil startSession];
 
-    SignInViewController *vc = [[SignInViewController alloc] init];
+    APSignInViewController *vc = [[APSignInViewController alloc] init];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];

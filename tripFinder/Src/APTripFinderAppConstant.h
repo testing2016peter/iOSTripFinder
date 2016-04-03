@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "APTripFinderConfig.h"
+#import "APConfig.h"
 
 #import <UIKit/UIKit.h>
 
@@ -27,6 +27,6 @@ extern NSString * const APTripFinderEnvBetaApiProductionUrl;
 @interface AppConstantUtil : NSObject
 
 
-+ (APTripFinderConfig *)config;
++ (APConfig *)config;
 
 @end

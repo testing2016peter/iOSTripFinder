@@ -1,5 +1,5 @@
 //
-//  APTripFinderService.h
+//  APTripFinderClient.h
 //  tripFinder
 //
 //  Created by Anson Ng on 3/13/16.
@@ -7,23 +7,25 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "APModels.h"
+#import <AFNetworking.h>
+#import "APUser.h"
+#import "APLocation.h"
 
-#import "APClient.h"
+typedef void(^APClientSuccessBlock)(AFHTTPRequestOperation *operation, id response);
+typedef void(^APClientFailureBlock)(AFHTTPRequestOperation *operation, NSError *err);
 
-@interface APTripFinderService : NSObject
+@interface APClient : NSObject
 
 + (instancetype )sharedInstance;
 
 - (void)signUpUser:(APUser *)user success:(APClientSuccessBlock)success failure:(APClientFailureBlock)failure;
+
 - (void)signInUserName:(NSString *)username password:(NSString *)password success:(APClientSuccessBlock)success failure:(APClientFailureBlock)failure;
+
 - (void)getUserName:(NSString *)username success:(APClientSuccessBlock)success failure:(APClientFailureBlock)failure;
 
-- (void)updateUser:(APUser *)user success:(APClientSuccessBlock)success failure:(APClientFailureBlock)failure;
+- (void)updateUserWithDictionary:(NSDictionary *)params success:(APClientSuccessBlock)success failure:(APClientFailureBlock)failure;
 
 - (void)updateUserHomeLocation:(APLocation *)location success:(APClientSuccessBlock)success failure:(APClientFailureBlock)failure;
-
 - (void)updateUserCurrentLocation:(APLocation *)location success:(APClientSuccessBlock)success failure:(APClientFailureBlock)failure;
-
-
 @end

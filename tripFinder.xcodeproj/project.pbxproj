@@ -9,35 +9,33 @@
 /* Begin PBXBuildFile section */
 		3569BA9F5E22E22FB6C26833 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDB318572948DA26B839846 /* libPods.a */; };
 		F738F92B1C9553BD00545537 /* APTripFinderService.m in Sources */ = {isa = PBXBuildFile; fileRef = F738F92A1C9553BD00545537 /* APTripFinderService.m */; };
-		F738F9321C9554DB00545537 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F738F9301C9554DB00545537 /* SignInViewController.m */; };
-		F738F9331C9554DB00545537 /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F738F9311C9554DB00545537 /* SignInViewController.xib */; };
-		F738F9381C955E1100545537 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F738F9361C955E1100545537 /* UserViewController.m */; };
-		F738F9391C955E1100545537 /* UserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F738F9371C955E1100545537 /* UserViewController.xib */; };
-		F738F93D1C9565BF00545537 /* APTripFinderBaseJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F738F93C1C9565BF00545537 /* APTripFinderBaseJSONModel.m */; };
-		F738F9401C9565E600545537 /* APTripFinderUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F738F93F1C9565E600545537 /* APTripFinderUser.m */; };
+		F738F9321C9554DB00545537 /* APSignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F738F9301C9554DB00545537 /* APSignInViewController.m */; };
+		F738F9331C9554DB00545537 /* APSignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F738F9311C9554DB00545537 /* APSignInViewController.xib */; };
+		F738F9381C955E1100545537 /* APUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F738F9361C955E1100545537 /* APUserViewController.m */; };
+		F738F9391C955E1100545537 /* APUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F738F9371C955E1100545537 /* APUserViewController.xib */; };
+		F738F93D1C9565BF00545537 /* APBaseJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F738F93C1C9565BF00545537 /* APBaseJSONModel.m */; };
+		F738F9401C9565E600545537 /* APUser.m in Sources */ = {isa = PBXBuildFile; fileRef = F738F93F1C9565E600545537 /* APUser.m */; };
 		F738F9431C95671A00545537 /* APTripFinderAppConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = F738F9421C95671A00545537 /* APTripFinderAppConstant.m */; };
-		F738F9461C95694000545537 /* APTripFinderConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F738F9451C95694000545537 /* APTripFinderConfig.m */; };
-		F7606FA31CA7D4C5004CE9A4 /* SignUpNickNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7606FA11CA7D4C5004CE9A4 /* SignUpNickNameViewController.m */; };
-		F7606FA41CA7D4C5004CE9A4 /* SignUpNickNameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7606FA21CA7D4C5004CE9A4 /* SignUpNickNameViewController.xib */; };
-		F7606FA81CA7D71C004CE9A4 /* SignUpGenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7606FA61CA7D71C004CE9A4 /* SignUpGenderViewController.m */; };
-		F7606FA91CA7D71C004CE9A4 /* SignUpGenderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7606FA71CA7D71C004CE9A4 /* SignUpGenderViewController.xib */; };
-		F7606FB51CA7DA4E004CE9A4 /* APTripFinderCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7606FB41CA7DA4E004CE9A4 /* APTripFinderCacheManager.m */; };
-		F7606FB81CA7DAEE004CE9A4 /* APTripFinderCacheData.m in Sources */ = {isa = PBXBuildFile; fileRef = F7606FB71CA7DAEE004CE9A4 /* APTripFinderCacheData.m */; };
-		F7606FBC1CA7E386004CE9A4 /* SignUpSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7606FBA1CA7E386004CE9A4 /* SignUpSuccessViewController.m */; };
-		F7606FBD1CA7E386004CE9A4 /* SignUpSuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7606FBB1CA7E386004CE9A4 /* SignUpSuccessViewController.xib */; };
-		F7606FC21CA7EE6D004CE9A4 /* SearchListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7606FC01CA7EE6D004CE9A4 /* SearchListViewController.m */; };
-		F7606FC31CA7EE6D004CE9A4 /* SearchListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7606FC11CA7EE6D004CE9A4 /* SearchListViewController.xib */; };
+		F738F9461C95694000545537 /* APConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F738F9451C95694000545537 /* APConfig.m */; };
+		F7606FA31CA7D4C5004CE9A4 /* APSignUpNickNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7606FA11CA7D4C5004CE9A4 /* APSignUpNickNameViewController.m */; };
+		F7606FA41CA7D4C5004CE9A4 /* APSignUpNickNameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7606FA21CA7D4C5004CE9A4 /* APSignUpNickNameViewController.xib */; };
+		F7606FA81CA7D71C004CE9A4 /* APSignUpGenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7606FA61CA7D71C004CE9A4 /* APSignUpGenderViewController.m */; };
+		F7606FA91CA7D71C004CE9A4 /* APSignUpGenderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7606FA71CA7D71C004CE9A4 /* APSignUpGenderViewController.xib */; };
+		F7606FB51CA7DA4E004CE9A4 /* APCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7606FB41CA7DA4E004CE9A4 /* APCacheManager.m */; };
+		F7606FB81CA7DAEE004CE9A4 /* APCacheData.m in Sources */ = {isa = PBXBuildFile; fileRef = F7606FB71CA7DAEE004CE9A4 /* APCacheData.m */; };
+		F7606FBC1CA7E386004CE9A4 /* APSignUpSuccessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7606FBA1CA7E386004CE9A4 /* APSignUpSuccessViewController.m */; };
+		F7606FBD1CA7E386004CE9A4 /* APSignUpSuccessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7606FBB1CA7E386004CE9A4 /* APSignUpSuccessViewController.xib */; };
+		F7606FC21CA7EE6D004CE9A4 /* APSearchListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7606FC01CA7EE6D004CE9A4 /* APSearchListViewController.m */; };
+		F7606FC31CA7EE6D004CE9A4 /* APSearchListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7606FC11CA7EE6D004CE9A4 /* APSearchListViewController.xib */; };
 		F7A8E31E1C95A80200200A91 /* libFlurry_7.5.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A8E1F91C95A80100200A91 /* libFlurry_7.5.2.a */; };
 		F7A8E31F1C95A80200200A91 /* libFlurryWatch_7.5.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A8E1FA1C95A80100200A91 /* libFlurryWatch_7.5.2.a */; };
 		F7A8E42C1C95A82600200A91 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A8E42B1C95A82600200A91 /* Security.framework */; };
-		F7A8E4301C95A8F300200A91 /* APTripFinderTrackUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A8E42F1C95A8F300200A91 /* APTripFinderTrackUtil.m */; };
-		F7A8E4331C95A96900200A91 /* APTripFinderTrackConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A8E4321C95A96900200A91 /* APTripFinderTrackConstant.m */; };
-		F7A8E4361C95AA6700200A91 /* TripFinderBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A8E4351C95AA6700200A91 /* TripFinderBaseViewController.m */; };
-		F7A976581C954F2900DA57B8 /* APTripFinderClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A976571C954F2900DA57B8 /* APTripFinderClient.m */; };
-		F7C93DF91C9D9E57001C2028 /* APTripFinderLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C93DF81C9D9E57001C2028 /* APTripFinderLocationManager.m */; };
-		F7C93E041C9DAC20001C2028 /* SexSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C93E031C9DAC20001C2028 /* SexSelectView.m */; };
-		F7C93E061C9DAC32001C2028 /* SexSelectView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7C93E051C9DAC32001C2028 /* SexSelectView.xib */; };
-		F7C93E0E1C9DAEF2001C2028 /* APTripFinderLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C93E0D1C9DAEF2001C2028 /* APTripFinderLocation.m */; };
+		F7A8E4301C95A8F300200A91 /* APTrackUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A8E42F1C95A8F300200A91 /* APTrackUtil.m */; };
+		F7A8E4331C95A96900200A91 /* APTrackConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A8E4321C95A96900200A91 /* APTrackConstant.m */; };
+		F7A8E4361C95AA6700200A91 /* APBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A8E4351C95AA6700200A91 /* APBaseViewController.m */; };
+		F7A976581C954F2900DA57B8 /* APClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A976571C954F2900DA57B8 /* APClient.m */; };
+		F7C93DF91C9D9E57001C2028 /* APLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C93DF81C9D9E57001C2028 /* APLocationManager.m */; };
+		F7C93E0E1C9DAEF2001C2028 /* APLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C93E0D1C9DAEF2001C2028 /* APLocation.m */; };
 		F7ED9A8B1C9549B1006EFB12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ED9A8A1C9549B1006EFB12 /* main.m */; };
 		F7ED9A8E1C9549B1006EFB12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ED9A8D1C9549B1006EFB12 /* AppDelegate.m */; };
 		F7ED9A941C9549B1006EFB12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7ED9A921C9549B1006EFB12 /* Main.storyboard */; };
@@ -69,57 +67,54 @@
 		AEDB318572948DA26B839846 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F738F9291C9553BD00545537 /* APTripFinderService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTripFinderService.h; sourceTree = "<group>"; };
 		F738F92A1C9553BD00545537 /* APTripFinderService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTripFinderService.m; sourceTree = "<group>"; };
-		F738F92F1C9554DB00545537 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
-		F738F9301C9554DB00545537 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
-		F738F9311C9554DB00545537 /* SignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
-		F738F9351C955E1100545537 /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
-		F738F9361C955E1100545537 /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
-		F738F9371C955E1100545537 /* UserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserViewController.xib; sourceTree = "<group>"; };
-		F738F93B1C9565BF00545537 /* APTripFinderBaseJSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTripFinderBaseJSONModel.h; sourceTree = "<group>"; };
-		F738F93C1C9565BF00545537 /* APTripFinderBaseJSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTripFinderBaseJSONModel.m; sourceTree = "<group>"; };
-		F738F93E1C9565E600545537 /* APTripFinderUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTripFinderUser.h; sourceTree = "<group>"; };
-		F738F93F1C9565E600545537 /* APTripFinderUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTripFinderUser.m; sourceTree = "<group>"; };
+		F738F92F1C9554DB00545537 /* APSignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APSignInViewController.h; sourceTree = "<group>"; };
+		F738F9301C9554DB00545537 /* APSignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APSignInViewController.m; sourceTree = "<group>"; };
+		F738F9311C9554DB00545537 /* APSignInViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APSignInViewController.xib; sourceTree = "<group>"; };
+		F738F9351C955E1100545537 /* APUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APUserViewController.h; sourceTree = "<group>"; };
+		F738F9361C955E1100545537 /* APUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APUserViewController.m; sourceTree = "<group>"; };
+		F738F9371C955E1100545537 /* APUserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APUserViewController.xib; sourceTree = "<group>"; };
+		F738F93B1C9565BF00545537 /* APBaseJSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APBaseJSONModel.h; sourceTree = "<group>"; };
+		F738F93C1C9565BF00545537 /* APBaseJSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APBaseJSONModel.m; sourceTree = "<group>"; };
+		F738F93E1C9565E600545537 /* APUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APUser.h; sourceTree = "<group>"; };
+		F738F93F1C9565E600545537 /* APUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APUser.m; sourceTree = "<group>"; };
 		F738F9411C95671A00545537 /* APTripFinderAppConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTripFinderAppConstant.h; sourceTree = "<group>"; };
 		F738F9421C95671A00545537 /* APTripFinderAppConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTripFinderAppConstant.m; sourceTree = "<group>"; };
-		F738F9441C95694000545537 /* APTripFinderConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APTripFinderConfig.h; path = tripFinder/Src/Util/Model/APTripFinderConfig.h; sourceTree = SOURCE_ROOT; };
-		F738F9451C95694000545537 /* APTripFinderConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APTripFinderConfig.m; path = tripFinder/Src/Util/Model/APTripFinderConfig.m; sourceTree = SOURCE_ROOT; };
-		F738F9471C9570E300545537 /* APTripFinderModels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APTripFinderModels.h; sourceTree = "<group>"; };
-		F7606FA01CA7D4C5004CE9A4 /* SignUpNickNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpNickNameViewController.h; sourceTree = "<group>"; };
-		F7606FA11CA7D4C5004CE9A4 /* SignUpNickNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpNickNameViewController.m; sourceTree = "<group>"; };
-		F7606FA21CA7D4C5004CE9A4 /* SignUpNickNameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpNickNameViewController.xib; sourceTree = "<group>"; };
-		F7606FA51CA7D71C004CE9A4 /* SignUpGenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpGenderViewController.h; sourceTree = "<group>"; };
-		F7606FA61CA7D71C004CE9A4 /* SignUpGenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpGenderViewController.m; sourceTree = "<group>"; };
-		F7606FA71CA7D71C004CE9A4 /* SignUpGenderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpGenderViewController.xib; sourceTree = "<group>"; };
-		F7606FB31CA7DA4E004CE9A4 /* APTripFinderCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTripFinderCacheManager.h; sourceTree = "<group>"; };
-		F7606FB41CA7DA4E004CE9A4 /* APTripFinderCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTripFinderCacheManager.m; sourceTree = "<group>"; };
-		F7606FB61CA7DAEE004CE9A4 /* APTripFinderCacheData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTripFinderCacheData.h; sourceTree = "<group>"; };
-		F7606FB71CA7DAEE004CE9A4 /* APTripFinderCacheData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTripFinderCacheData.m; sourceTree = "<group>"; };
-		F7606FB91CA7E386004CE9A4 /* SignUpSuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpSuccessViewController.h; sourceTree = "<group>"; };
-		F7606FBA1CA7E386004CE9A4 /* SignUpSuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpSuccessViewController.m; sourceTree = "<group>"; };
-		F7606FBB1CA7E386004CE9A4 /* SignUpSuccessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpSuccessViewController.xib; sourceTree = "<group>"; };
-		F7606FBF1CA7EE6D004CE9A4 /* SearchListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchListViewController.h; sourceTree = "<group>"; };
-		F7606FC01CA7EE6D004CE9A4 /* SearchListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchListViewController.m; sourceTree = "<group>"; };
-		F7606FC11CA7EE6D004CE9A4 /* SearchListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchListViewController.xib; sourceTree = "<group>"; };
+		F738F9441C95694000545537 /* APConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APConfig.h; path = tripFinder/Src/Util/Model/APConfig.h; sourceTree = SOURCE_ROOT; };
+		F738F9451C95694000545537 /* APConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APConfig.m; path = tripFinder/Src/Util/Model/APConfig.m; sourceTree = SOURCE_ROOT; };
+		F738F9471C9570E300545537 /* APModels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APModels.h; sourceTree = "<group>"; };
+		F7606FA01CA7D4C5004CE9A4 /* APSignUpNickNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APSignUpNickNameViewController.h; sourceTree = "<group>"; };
+		F7606FA11CA7D4C5004CE9A4 /* APSignUpNickNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APSignUpNickNameViewController.m; sourceTree = "<group>"; };
+		F7606FA21CA7D4C5004CE9A4 /* APSignUpNickNameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APSignUpNickNameViewController.xib; sourceTree = "<group>"; };
+		F7606FA51CA7D71C004CE9A4 /* APSignUpGenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APSignUpGenderViewController.h; sourceTree = "<group>"; };
+		F7606FA61CA7D71C004CE9A4 /* APSignUpGenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APSignUpGenderViewController.m; sourceTree = "<group>"; };
+		F7606FA71CA7D71C004CE9A4 /* APSignUpGenderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APSignUpGenderViewController.xib; sourceTree = "<group>"; };
+		F7606FB31CA7DA4E004CE9A4 /* APCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCacheManager.h; sourceTree = "<group>"; };
+		F7606FB41CA7DA4E004CE9A4 /* APCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCacheManager.m; sourceTree = "<group>"; };
+		F7606FB61CA7DAEE004CE9A4 /* APCacheData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCacheData.h; sourceTree = "<group>"; };
+		F7606FB71CA7DAEE004CE9A4 /* APCacheData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCacheData.m; sourceTree = "<group>"; };
+		F7606FB91CA7E386004CE9A4 /* APSignUpSuccessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APSignUpSuccessViewController.h; sourceTree = "<group>"; };
+		F7606FBA1CA7E386004CE9A4 /* APSignUpSuccessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APSignUpSuccessViewController.m; sourceTree = "<group>"; };
+		F7606FBB1CA7E386004CE9A4 /* APSignUpSuccessViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APSignUpSuccessViewController.xib; sourceTree = "<group>"; };
+		F7606FBF1CA7EE6D004CE9A4 /* APSearchListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APSearchListViewController.h; sourceTree = "<group>"; };
+		F7606FC01CA7EE6D004CE9A4 /* APSearchListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APSearchListViewController.m; sourceTree = "<group>"; };
+		F7606FC11CA7EE6D004CE9A4 /* APSearchListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APSearchListViewController.xib; sourceTree = "<group>"; };
 		F7A8E1F71C95A80100200A91 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
 		F7A8E1F81C95A80100200A91 /* FlurryWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryWatch.h; sourceTree = "<group>"; };
 		F7A8E1F91C95A80100200A91 /* libFlurry_7.5.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_7.5.2.a; sourceTree = "<group>"; };
 		F7A8E1FA1C95A80100200A91 /* libFlurryWatch_7.5.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryWatch_7.5.2.a; sourceTree = "<group>"; };
 		F7A8E42B1C95A82600200A91 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		F7A8E42E1C95A8F300200A91 /* APTripFinderTrackUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTripFinderTrackUtil.h; sourceTree = "<group>"; };
-		F7A8E42F1C95A8F300200A91 /* APTripFinderTrackUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTripFinderTrackUtil.m; sourceTree = "<group>"; };
-		F7A8E4311C95A96900200A91 /* APTripFinderTrackConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTripFinderTrackConstant.h; sourceTree = "<group>"; };
-		F7A8E4321C95A96900200A91 /* APTripFinderTrackConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTripFinderTrackConstant.m; sourceTree = "<group>"; };
-		F7A8E4341C95AA6700200A91 /* TripFinderBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripFinderBaseViewController.h; sourceTree = "<group>"; };
-		F7A8E4351C95AA6700200A91 /* TripFinderBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripFinderBaseViewController.m; sourceTree = "<group>"; };
-		F7A976561C954F2900DA57B8 /* APTripFinderClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTripFinderClient.h; sourceTree = "<group>"; };
-		F7A976571C954F2900DA57B8 /* APTripFinderClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTripFinderClient.m; sourceTree = "<group>"; };
-		F7C93DF71C9D9E57001C2028 /* APTripFinderLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTripFinderLocationManager.h; sourceTree = "<group>"; };
-		F7C93DF81C9D9E57001C2028 /* APTripFinderLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTripFinderLocationManager.m; sourceTree = "<group>"; };
-		F7C93E021C9DAC20001C2028 /* SexSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SexSelectView.h; sourceTree = "<group>"; };
-		F7C93E031C9DAC20001C2028 /* SexSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SexSelectView.m; sourceTree = "<group>"; };
-		F7C93E051C9DAC32001C2028 /* SexSelectView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SexSelectView.xib; sourceTree = "<group>"; };
-		F7C93E0C1C9DAEF2001C2028 /* APTripFinderLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTripFinderLocation.h; sourceTree = "<group>"; };
-		F7C93E0D1C9DAEF2001C2028 /* APTripFinderLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTripFinderLocation.m; sourceTree = "<group>"; };
+		F7A8E42E1C95A8F300200A91 /* APTrackUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTrackUtil.h; sourceTree = "<group>"; };
+		F7A8E42F1C95A8F300200A91 /* APTrackUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTrackUtil.m; sourceTree = "<group>"; };
+		F7A8E4311C95A96900200A91 /* APTrackConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTrackConstant.h; sourceTree = "<group>"; };
+		F7A8E4321C95A96900200A91 /* APTrackConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTrackConstant.m; sourceTree = "<group>"; };
+		F7A8E4341C95AA6700200A91 /* APBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APBaseViewController.h; sourceTree = "<group>"; };
+		F7A8E4351C95AA6700200A91 /* APBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APBaseViewController.m; sourceTree = "<group>"; };
+		F7A976561C954F2900DA57B8 /* APClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APClient.h; sourceTree = "<group>"; };
+		F7A976571C954F2900DA57B8 /* APClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APClient.m; sourceTree = "<group>"; };
+		F7C93DF71C9D9E57001C2028 /* APLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLocationManager.h; sourceTree = "<group>"; };
+		F7C93DF81C9D9E57001C2028 /* APLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLocationManager.m; sourceTree = "<group>"; };
+		F7C93E0C1C9DAEF2001C2028 /* APLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLocation.h; sourceTree = "<group>"; };
+		F7C93E0D1C9DAEF2001C2028 /* APLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLocation.m; sourceTree = "<group>"; };
 		F7ED9A861C9549B1006EFB12 /* tripFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tripFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7ED9A8A1C9549B1006EFB12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7ED9A8C1C9549B1006EFB12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -187,9 +182,9 @@
 		F738F92E1C9554DB00545537 /* SignIn */ = {
 			isa = PBXGroup;
 			children = (
-				F738F92F1C9554DB00545537 /* SignInViewController.h */,
-				F738F9301C9554DB00545537 /* SignInViewController.m */,
-				F738F9311C9554DB00545537 /* SignInViewController.xib */,
+				F738F92F1C9554DB00545537 /* APSignInViewController.h */,
+				F738F9301C9554DB00545537 /* APSignInViewController.m */,
+				F738F9311C9554DB00545537 /* APSignInViewController.xib */,
 			);
 			path = SignIn;
 			sourceTree = "<group>";
@@ -197,9 +192,9 @@
 		F738F9341C955DFC00545537 /* User */ = {
 			isa = PBXGroup;
 			children = (
-				F738F9351C955E1100545537 /* UserViewController.h */,
-				F738F9361C955E1100545537 /* UserViewController.m */,
-				F738F9371C955E1100545537 /* UserViewController.xib */,
+				F738F9351C955E1100545537 /* APUserViewController.h */,
+				F738F9361C955E1100545537 /* APUserViewController.m */,
+				F738F9371C955E1100545537 /* APUserViewController.xib */,
 			);
 			path = User;
 			sourceTree = "<group>";
@@ -207,15 +202,15 @@
 		F738F93A1C95659F00545537 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F738F9441C95694000545537 /* APTripFinderConfig.h */,
-				F738F9451C95694000545537 /* APTripFinderConfig.m */,
-				F738F93B1C9565BF00545537 /* APTripFinderBaseJSONModel.h */,
-				F738F93C1C9565BF00545537 /* APTripFinderBaseJSONModel.m */,
-				F738F93E1C9565E600545537 /* APTripFinderUser.h */,
-				F738F93F1C9565E600545537 /* APTripFinderUser.m */,
-				F738F9471C9570E300545537 /* APTripFinderModels.h */,
-				F7C93E0C1C9DAEF2001C2028 /* APTripFinderLocation.h */,
-				F7C93E0D1C9DAEF2001C2028 /* APTripFinderLocation.m */,
+				F738F9441C95694000545537 /* APConfig.h */,
+				F738F9451C95694000545537 /* APConfig.m */,
+				F738F93B1C9565BF00545537 /* APBaseJSONModel.h */,
+				F738F93C1C9565BF00545537 /* APBaseJSONModel.m */,
+				F738F93E1C9565E600545537 /* APUser.h */,
+				F738F93F1C9565E600545537 /* APUser.m */,
+				F738F9471C9570E300545537 /* APModels.h */,
+				F7C93E0C1C9DAEF2001C2028 /* APLocation.h */,
+				F7C93E0D1C9DAEF2001C2028 /* APLocation.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -223,10 +218,10 @@
 		F7606FB21CA7DA4E004CE9A4 /* Cache */ = {
 			isa = PBXGroup;
 			children = (
-				F7606FB31CA7DA4E004CE9A4 /* APTripFinderCacheManager.h */,
-				F7606FB41CA7DA4E004CE9A4 /* APTripFinderCacheManager.m */,
-				F7606FB61CA7DAEE004CE9A4 /* APTripFinderCacheData.h */,
-				F7606FB71CA7DAEE004CE9A4 /* APTripFinderCacheData.m */,
+				F7606FB31CA7DA4E004CE9A4 /* APCacheManager.h */,
+				F7606FB41CA7DA4E004CE9A4 /* APCacheManager.m */,
+				F7606FB61CA7DAEE004CE9A4 /* APCacheData.h */,
+				F7606FB71CA7DAEE004CE9A4 /* APCacheData.m */,
 			);
 			path = Cache;
 			sourceTree = "<group>";
@@ -234,9 +229,10 @@
 		F7606FBE1CA7EE54004CE9A4 /* Search */ = {
 			isa = PBXGroup;
 			children = (
-				F7606FBF1CA7EE6D004CE9A4 /* SearchListViewController.h */,
-				F7606FC01CA7EE6D004CE9A4 /* SearchListViewController.m */,
-				F7606FC11CA7EE6D004CE9A4 /* SearchListViewController.xib */,
+				F7E823861CB1797B004CED1E /* Cells */,
+				F7606FBF1CA7EE6D004CE9A4 /* APSearchListViewController.h */,
+				F7606FC01CA7EE6D004CE9A4 /* APSearchListViewController.m */,
+				F7606FC11CA7EE6D004CE9A4 /* APSearchListViewController.xib */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -263,10 +259,10 @@
 		F7A8E42D1C95A8DA00200A91 /* Track */ = {
 			isa = PBXGroup;
 			children = (
-				F7A8E42E1C95A8F300200A91 /* APTripFinderTrackUtil.h */,
-				F7A8E42F1C95A8F300200A91 /* APTripFinderTrackUtil.m */,
-				F7A8E4311C95A96900200A91 /* APTripFinderTrackConstant.h */,
-				F7A8E4321C95A96900200A91 /* APTripFinderTrackConstant.m */,
+				F7A8E42E1C95A8F300200A91 /* APTrackUtil.h */,
+				F7A8E42F1C95A8F300200A91 /* APTrackUtil.m */,
+				F7A8E4311C95A96900200A91 /* APTrackConstant.h */,
+				F7A8E4321C95A96900200A91 /* APTrackConstant.m */,
 			);
 			path = Track;
 			sourceTree = "<group>";
@@ -281,8 +277,8 @@
 				F7A9764F1C954D8D00DA57B8 /* Util */,
 				F738F9411C95671A00545537 /* APTripFinderAppConstant.h */,
 				F738F9421C95671A00545537 /* APTripFinderAppConstant.m */,
-				F7A8E4341C95AA6700200A91 /* TripFinderBaseViewController.h */,
-				F7A8E4351C95AA6700200A91 /* TripFinderBaseViewController.m */,
+				F7A8E4341C95AA6700200A91 /* APBaseViewController.h */,
+				F7A8E4351C95AA6700200A91 /* APBaseViewController.m */,
 			);
 			path = Src;
 			sourceTree = "<group>";
@@ -303,8 +299,8 @@
 		F7A976551C954DC300DA57B8 /* Client */ = {
 			isa = PBXGroup;
 			children = (
-				F7A976561C954F2900DA57B8 /* APTripFinderClient.h */,
-				F7A976571C954F2900DA57B8 /* APTripFinderClient.m */,
+				F7A976561C954F2900DA57B8 /* APClient.h */,
+				F7A976571C954F2900DA57B8 /* APClient.m */,
 				F738F9291C9553BD00545537 /* APTripFinderService.h */,
 				F738F92A1C9553BD00545537 /* APTripFinderService.m */,
 			);
@@ -314,8 +310,8 @@
 		F7C93DF61C9D9E3D001C2028 /* Location */ = {
 			isa = PBXGroup;
 			children = (
-				F7C93DF71C9D9E57001C2028 /* APTripFinderLocationManager.h */,
-				F7C93DF81C9D9E57001C2028 /* APTripFinderLocationManager.m */,
+				F7C93DF71C9D9E57001C2028 /* APLocationManager.h */,
+				F7C93DF81C9D9E57001C2028 /* APLocationManager.m */,
 			);
 			path = Location;
 			sourceTree = "<group>";
@@ -323,15 +319,15 @@
 		F7C93DFA1C9DAB48001C2028 /* Signup */ = {
 			isa = PBXGroup;
 			children = (
-				F7606FA01CA7D4C5004CE9A4 /* SignUpNickNameViewController.h */,
-				F7606FA11CA7D4C5004CE9A4 /* SignUpNickNameViewController.m */,
-				F7606FA21CA7D4C5004CE9A4 /* SignUpNickNameViewController.xib */,
-				F7606FA51CA7D71C004CE9A4 /* SignUpGenderViewController.h */,
-				F7606FA61CA7D71C004CE9A4 /* SignUpGenderViewController.m */,
-				F7606FA71CA7D71C004CE9A4 /* SignUpGenderViewController.xib */,
-				F7606FB91CA7E386004CE9A4 /* SignUpSuccessViewController.h */,
-				F7606FBA1CA7E386004CE9A4 /* SignUpSuccessViewController.m */,
-				F7606FBB1CA7E386004CE9A4 /* SignUpSuccessViewController.xib */,
+				F7606FA01CA7D4C5004CE9A4 /* APSignUpNickNameViewController.h */,
+				F7606FA11CA7D4C5004CE9A4 /* APSignUpNickNameViewController.m */,
+				F7606FA21CA7D4C5004CE9A4 /* APSignUpNickNameViewController.xib */,
+				F7606FA51CA7D71C004CE9A4 /* APSignUpGenderViewController.h */,
+				F7606FA61CA7D71C004CE9A4 /* APSignUpGenderViewController.m */,
+				F7606FA71CA7D71C004CE9A4 /* APSignUpGenderViewController.xib */,
+				F7606FB91CA7E386004CE9A4 /* APSignUpSuccessViewController.h */,
+				F7606FBA1CA7E386004CE9A4 /* APSignUpSuccessViewController.m */,
+				F7606FBB1CA7E386004CE9A4 /* APSignUpSuccessViewController.xib */,
 			);
 			path = Signup;
 			sourceTree = "<group>";
@@ -347,11 +343,15 @@
 		F7C93E011C9DABF7001C2028 /* UsersData */ = {
 			isa = PBXGroup;
 			children = (
-				F7C93E021C9DAC20001C2028 /* SexSelectView.h */,
-				F7C93E031C9DAC20001C2028 /* SexSelectView.m */,
-				F7C93E051C9DAC32001C2028 /* SexSelectView.xib */,
 			);
 			path = UsersData;
+			sourceTree = "<group>";
+		};
+		F7E823861CB1797B004CED1E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		F7ED9A7D1C9549B1006EFB12 = {
@@ -524,14 +524,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7606FA41CA7D4C5004CE9A4 /* SignUpNickNameViewController.xib in Resources */,
-				F7606FA91CA7D71C004CE9A4 /* SignUpGenderViewController.xib in Resources */,
-				F7606FC31CA7EE6D004CE9A4 /* SearchListViewController.xib in Resources */,
-				F7C93E061C9DAC32001C2028 /* SexSelectView.xib in Resources */,
-				F738F9331C9554DB00545537 /* SignInViewController.xib in Resources */,
-				F738F9391C955E1100545537 /* UserViewController.xib in Resources */,
+				F7606FA41CA7D4C5004CE9A4 /* APSignUpNickNameViewController.xib in Resources */,
+				F7606FA91CA7D71C004CE9A4 /* APSignUpGenderViewController.xib in Resources */,
+				F7606FC31CA7EE6D004CE9A4 /* APSearchListViewController.xib in Resources */,
+				F738F9331C9554DB00545537 /* APSignInViewController.xib in Resources */,
+				F738F9391C955E1100545537 /* APUserViewController.xib in Resources */,
 				F7ED9A991C9549B1006EFB12 /* LaunchScreen.storyboard in Resources */,
-				F7606FBD1CA7E386004CE9A4 /* SignUpSuccessViewController.xib in Resources */,
+				F7606FBD1CA7E386004CE9A4 /* APSignUpSuccessViewController.xib in Resources */,
 				F7ED9A961C9549B1006EFB12 /* Assets.xcassets in Resources */,
 				F7ED9A941C9549B1006EFB12 /* Main.storyboard in Resources */,
 			);
@@ -606,28 +605,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7606FB51CA7DA4E004CE9A4 /* APTripFinderCacheManager.m in Sources */,
-				F738F9381C955E1100545537 /* UserViewController.m in Sources */,
-				F738F9401C9565E600545537 /* APTripFinderUser.m in Sources */,
-				F7A8E4361C95AA6700200A91 /* TripFinderBaseViewController.m in Sources */,
-				F7606FB81CA7DAEE004CE9A4 /* APTripFinderCacheData.m in Sources */,
-				F7A8E4331C95A96900200A91 /* APTripFinderTrackConstant.m in Sources */,
-				F7A976581C954F2900DA57B8 /* APTripFinderClient.m in Sources */,
-				F7606FA81CA7D71C004CE9A4 /* SignUpGenderViewController.m in Sources */,
-				F7606FC21CA7EE6D004CE9A4 /* SearchListViewController.m in Sources */,
-				F7C93E041C9DAC20001C2028 /* SexSelectView.m in Sources */,
-				F7606FA31CA7D4C5004CE9A4 /* SignUpNickNameViewController.m in Sources */,
+				F7606FB51CA7DA4E004CE9A4 /* APCacheManager.m in Sources */,
+				F738F9381C955E1100545537 /* APUserViewController.m in Sources */,
+				F738F9401C9565E600545537 /* APUser.m in Sources */,
+				F7A8E4361C95AA6700200A91 /* APBaseViewController.m in Sources */,
+				F7606FB81CA7DAEE004CE9A4 /* APCacheData.m in Sources */,
+				F7A8E4331C95A96900200A91 /* APTrackConstant.m in Sources */,
+				F7A976581C954F2900DA57B8 /* APClient.m in Sources */,
+				F7606FA81CA7D71C004CE9A4 /* APSignUpGenderViewController.m in Sources */,
+				F7606FC21CA7EE6D004CE9A4 /* APSearchListViewController.m in Sources */,
+				F7606FA31CA7D4C5004CE9A4 /* APSignUpNickNameViewController.m in Sources */,
 				F738F92B1C9553BD00545537 /* APTripFinderService.m in Sources */,
-				F7A8E4301C95A8F300200A91 /* APTripFinderTrackUtil.m in Sources */,
+				F7A8E4301C95A8F300200A91 /* APTrackUtil.m in Sources */,
 				F7ED9A8E1C9549B1006EFB12 /* AppDelegate.m in Sources */,
-				F7C93DF91C9D9E57001C2028 /* APTripFinderLocationManager.m in Sources */,
-				F738F9321C9554DB00545537 /* SignInViewController.m in Sources */,
-				F7C93E0E1C9DAEF2001C2028 /* APTripFinderLocation.m in Sources */,
+				F7C93DF91C9D9E57001C2028 /* APLocationManager.m in Sources */,
+				F738F9321C9554DB00545537 /* APSignInViewController.m in Sources */,
+				F7C93E0E1C9DAEF2001C2028 /* APLocation.m in Sources */,
 				F7ED9A8B1C9549B1006EFB12 /* main.m in Sources */,
-				F7606FBC1CA7E386004CE9A4 /* SignUpSuccessViewController.m in Sources */,
-				F738F93D1C9565BF00545537 /* APTripFinderBaseJSONModel.m in Sources */,
+				F7606FBC1CA7E386004CE9A4 /* APSignUpSuccessViewController.m in Sources */,
+				F738F93D1C9565BF00545537 /* APBaseJSONModel.m in Sources */,
 				F738F9431C95671A00545537 /* APTripFinderAppConstant.m in Sources */,
-				F738F9461C95694000545537 /* APTripFinderConfig.m in Sources */,
+				F738F9461C95694000545537 /* APConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -768,6 +766,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tripFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -785,6 +784,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tripFinder/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

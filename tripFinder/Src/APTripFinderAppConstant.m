@@ -7,20 +7,20 @@
 //
 
 #import "APTripFinderAppConstant.h"
-#import "APTripFinderConfig.h"
+#import "APConfig.h"
 
 NSString * const APTripFinderEnvBetaApiUrl = @"https://petertest2016.herokuapp.com";
 NSString * const APTripFinderEnvBetaApiProductionUrl = @"https://petertest2016.herokuapp.com";
 
 @implementation AppConstantUtil
 
-+ (APTripFinderConfig *)config
++ (APConfig *)config
 {
     NSDictionary *dic = @{
                           @"apiUrl": APTripFinderEnvBetaApiUrl,
 
                           };
-    APTripFinderConfig *config = [[APTripFinderConfig alloc] initWithDictionary:dic error:nil];
+    APConfig *config = [[APConfig alloc] initWithDictionary:dic error:nil];
     return config;
 }
 

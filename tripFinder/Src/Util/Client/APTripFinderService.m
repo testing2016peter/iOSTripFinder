@@ -9,7 +9,7 @@
 #import "APTripFinderService.h"
 
 @interface APTripFinderService ()
-@property (strong, nonatomic) APTripFinderClient *client;
+@property (strong, nonatomic) APClient *client;
 @end
 @implementation APTripFinderService
 
@@ -21,13 +21,13 @@
     dispatch_once(&onceToken, ^{
         @synchronized(self) {
             instance = [[APTripFinderService alloc] init];
-            instance.client = [APTripFinderClient sharedInstance];
+            instance.client = [APClient sharedInstance];
         }
     });
     return instance;
 }
 
-- (void)signInUserName:(NSString *)username password:(NSString *)password success:(APTripFinderClientSuccessBlock)success failure:(APTripFinderClientFailureBlock)failure
+- (void)signInUserName:(NSString *)username password:(NSString *)password success:(APClientSuccessBlock)success failure:(APClientFailureBlock)failure
 {
     [self.client signInUserName:username password:password success:^(AFHTTPRequestOperation *operation, id response) {
         success(operation, response);
@@ -36,7 +36,7 @@
     }];
 }
 
-- (void)signUpUser:(APTripFinderUser *)user success:(APTripFinderClientSuccessBlock)success failure:(APTripFinderClientFailureBlock)failure
+- (void)signUpUser:(APUser *)user success:(APClientSuccessBlock)success failure:(APClientFailureBlock)failure
 {
     [self.client signUpUser:user success:^(AFHTTPRequestOperation *operation, id response) {
         success(operation, response);
@@ -46,10 +46,10 @@
 
 }
 
-- (void)getUserName:(NSString *)username success:(APTripFinderClientSuccessBlock)success failure:(APTripFinderClientFailureBlock)failure
+- (void)getUserName:(NSString *)username success:(APClientSuccessBlock)success failure:(APClientFailureBlock)failure
 {
     [self.client getUserName:username success:^(AFHTTPRequestOperation *operation, id response) {
-        APTripFinderUser *user = [[APTripFinderUser alloc] initWithDictionary:response error:nil];
+        APUser *user = [[APUser alloc] initWithDictionary:response error:nil];
         success(operation, user);
     } failure:^(AFHTTPRequestOperation *operation, NSError *err) {
         failure(operation, err);
@@ -57,7 +57,7 @@
     }];
 }
 
-- (void)updateUser:(APTripFinderUser *)user success:(APTripFinderClientSuccessBlock)success failure:(APTripFinderClientFailureBlock)failure
+- (void)updateUser:(APUser *)user success:(APClientSuccessBlock)success failure:(APClientFailureBlock)failure
 {
     [self.client updateUserWithDictionary:[user toDictionary] success:^(AFHTTPRequestOperation *operation, id response) {
         success(operation, user);
@@ -66,12 +66,12 @@
     }];
 }
 
-- (void)updateUserHomeLocation:(APTripFinderLocation *)location success:(APTripFinderClientSuccessBlock)success failure:(APTripFinderClientFailureBlock)failure
+- (void)updateUserHomeLocation:(APLocation *)location success:(APClientSuccessBlock)success failure:(APClientFailureBlock)failure
 {
     [self.client updateUserHomeLocation:location success:success failure:failure];
 }
 
-- (void)updateUserCurrentLocation:(APTripFinderLocation *)location success:(APTripFinderClientSuccessBlock)success failure:(APTripFinderClientFailureBlock)failure
+- (void)updateUserCurrentLocation:(APLocation *)location success:(APClientSuccessBlock)success failure:(APClientFailureBlock)failure
 {
     [self.client updateUserCurrentLocation:location success:success failure:failure];
 }
