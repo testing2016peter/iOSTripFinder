@@ -28,7 +28,6 @@
 		F7606FC21CA7EE6D004CE9A4 /* APSearchListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7606FC01CA7EE6D004CE9A4 /* APSearchListViewController.m */; };
 		F7606FC31CA7EE6D004CE9A4 /* APSearchListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7606FC11CA7EE6D004CE9A4 /* APSearchListViewController.xib */; };
 		F7A8E31E1C95A80200200A91 /* libFlurry_7.5.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A8E1F91C95A80100200A91 /* libFlurry_7.5.2.a */; };
-		F7A8E31F1C95A80200200A91 /* libFlurryWatch_7.5.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A8E1FA1C95A80100200A91 /* libFlurryWatch_7.5.2.a */; };
 		F7A8E42C1C95A82600200A91 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A8E42B1C95A82600200A91 /* Security.framework */; };
 		F7A8E4301C95A8F300200A91 /* APTrackUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A8E42F1C95A8F300200A91 /* APTrackUtil.m */; };
 		F7A8E4331C95A96900200A91 /* APTrackConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A8E4321C95A96900200A91 /* APTrackConstant.m */; };
@@ -99,9 +98,7 @@
 		F7606FC01CA7EE6D004CE9A4 /* APSearchListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APSearchListViewController.m; sourceTree = "<group>"; };
 		F7606FC11CA7EE6D004CE9A4 /* APSearchListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APSearchListViewController.xib; sourceTree = "<group>"; };
 		F7A8E1F71C95A80100200A91 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
-		F7A8E1F81C95A80100200A91 /* FlurryWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryWatch.h; sourceTree = "<group>"; };
 		F7A8E1F91C95A80100200A91 /* libFlurry_7.5.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_7.5.2.a; sourceTree = "<group>"; };
-		F7A8E1FA1C95A80100200A91 /* libFlurryWatch_7.5.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurryWatch_7.5.2.a; sourceTree = "<group>"; };
 		F7A8E42B1C95A82600200A91 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		F7A8E42E1C95A8F300200A91 /* APTrackUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTrackUtil.h; sourceTree = "<group>"; };
 		F7A8E42F1C95A8F300200A91 /* APTrackUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTrackUtil.m; sourceTree = "<group>"; };
@@ -139,7 +136,6 @@
 			files = (
 				F7A8E42C1C95A82600200A91 /* Security.framework in Frameworks */,
 				F7A8E31E1C95A80200200A91 /* libFlurry_7.5.2.a in Frameworks */,
-				F7A8E31F1C95A80200200A91 /* libFlurryWatch_7.5.2.a in Frameworks */,
 				3569BA9F5E22E22FB6C26833 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,9 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				F7A8E1F71C95A80100200A91 /* Flurry.h */,
-				F7A8E1F81C95A80100200A91 /* FlurryWatch.h */,
 				F7A8E1F91C95A80100200A91 /* libFlurry_7.5.2.a */,
-				F7A8E1FA1C95A80100200A91 /* libFlurryWatch_7.5.2.a */,
 			);
 			path = Flurry;
 			sourceTree = "<group>";

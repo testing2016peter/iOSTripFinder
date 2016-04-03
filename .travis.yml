@@ -1,5 +1,7 @@
 language: objective-c
 osx_image: xcode7.3
+xcode_workspace: tripFinder.xcworkspace
+xcode_scheme: tripFinder
 env:
   matrix:
     - SDK=iphonesimulator8.1
