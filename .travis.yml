@@ -1,10 +1,10 @@
 language: objective-c
 osx_image: xcode7.3
- before_install:
-   - brew install -v --HEAD xctool
-   - gem install xcodeproj -v 0.28.2
- script:
-   xctool -workspace tripFinder.xcworkspace -scheme tripFinder build test -sdk iphonesimulator GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+before_install:
+  - brew install -v --HEAD xctool
+  - gem install xcodeproj -v 0.28.2
+script:
+  xctool -workspace tripFinder.xcworkspace -scheme tripFinder build test -sdk iphonesimulator GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
 #before_install:
 #  - gem install xcpretty -N
 #script:
