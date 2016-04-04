@@ -12,6 +12,7 @@
 #import "APTrackUtil.h"
 #import "APSearchListViewController.h"
 #import "APTabbarViewController.h"
+#import "UIImage+APResize.h"
 @interface AppDelegate ()
 
 @end
@@ -51,7 +52,7 @@
 - (void)launchMainFlow
 {
     // Shifting tab bar item image's position.
-    UIEdgeInsets tabBarImageEdgeInsets = UIEdgeInsetsMake(6.0f, 6.0f, 6.0f, 6.0f);
+    UIEdgeInsets tabBarImageEdgeInsets = UIEdgeInsetsMake(6.0f, 0.0f, -6.0f, 0.0f);
     // Generating main window for Auction project.
     UIScreen *screen = [UIScreen mainScreen];
     self.window = [[UIWindow alloc] initWithFrame:screen.bounds];
@@ -80,7 +81,7 @@
 
     //1.search
     APSearchListViewController *apSearchListViewController = [[APSearchListViewController alloc] init];
-        apSearchListViewController.title = @"Feeds";
+
     apSearchListViewController.tabBarItem.image = [UIImage imageNamed:@"Icon-Activity-Feed-Filled"];
     apSearchListViewController.tabBarItem.imageInsets = tabBarImageEdgeInsets;
 
@@ -90,7 +91,6 @@
     //2.search
 
     APSearchListViewController *apSearchListViewController2 = [[APSearchListViewController alloc] init];
-    apSearchListViewController2.title = @"test";
     apSearchListViewController2.tabBarItem.image = [UIImage imageNamed:@"Icon-Activity-Feed-Filled"];
     apSearchListViewController2.tabBarItem.imageInsets = tabBarImageEdgeInsets;
 

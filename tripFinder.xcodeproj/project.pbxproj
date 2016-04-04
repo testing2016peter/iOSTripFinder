@@ -28,6 +28,7 @@
 		F7606FC21CA7EE6D004CE9A4 /* APSearchListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7606FC01CA7EE6D004CE9A4 /* APSearchListViewController.m */; };
 		F7606FC31CA7EE6D004CE9A4 /* APSearchListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7606FC11CA7EE6D004CE9A4 /* APSearchListViewController.xib */; };
 		F76BEC041CB25F8D00D156E2 /* APTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76BEC031CB25F8D00D156E2 /* APTabbarViewController.m */; };
+		F76BEC081CB2742900D156E2 /* UIImage+APResize.m in Sources */ = {isa = PBXBuildFile; fileRef = F76BEC071CB2742900D156E2 /* UIImage+APResize.m */; };
 		F7A8E31E1C95A80200200A91 /* libFlurry_7.5.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A8E1F91C95A80100200A91 /* libFlurry_7.5.2.a */; };
 		F7A8E42C1C95A82600200A91 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A8E42B1C95A82600200A91 /* Security.framework */; };
 		F7A8E4301C95A8F300200A91 /* APTrackUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A8E42F1C95A8F300200A91 /* APTrackUtil.m */; };
@@ -106,6 +107,8 @@
 		F7606FC11CA7EE6D004CE9A4 /* APSearchListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APSearchListViewController.xib; sourceTree = "<group>"; };
 		F76BEC021CB25F8D00D156E2 /* APTabbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APTabbarViewController.h; sourceTree = "<group>"; };
 		F76BEC031CB25F8D00D156E2 /* APTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTabbarViewController.m; sourceTree = "<group>"; };
+		F76BEC061CB2742900D156E2 /* UIImage+APResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+APResize.h"; sourceTree = "<group>"; };
+		F76BEC071CB2742900D156E2 /* UIImage+APResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+APResize.m"; sourceTree = "<group>"; };
 		F7A8E1F71C95A80100200A91 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
 		F7A8E1F91C95A80100200A91 /* libFlurry_7.5.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_7.5.2.a; sourceTree = "<group>"; };
 		F7A8E42B1C95A82600200A91 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -262,6 +265,15 @@
 			path = Tabbar;
 			sourceTree = "<group>";
 		};
+		F76BEC051CB2741000D156E2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F76BEC061CB2742900D156E2 /* UIImage+APResize.h */,
+				F76BEC071CB2742900D156E2 /* UIImage+APResize.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		F7A8E1F51C95A80100200A91 /* Flurry-iOS-7.5.2 */ = {
 			isa = PBXGroup;
 			children = (
@@ -310,6 +322,7 @@
 		F7A9764F1C954D8D00DA57B8 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				F76BEC051CB2741000D156E2 /* Category */,
 				F7BB55C41CB255E000EAF3A9 /* Layout */,
 				F7606FB21CA7DA4E004CE9A4 /* Cache */,
 				F7C93E001C9DABE1001C2028 /* Views */,
@@ -673,6 +686,7 @@
 				F7BB55CA1CB2564200EAF3A9 /* APNibSizeCalculator.m in Sources */,
 				F7BB55BE1CB2432B00EAF3A9 /* APSearchListCollectionViewCell.m in Sources */,
 				F738F92B1C9553BD00545537 /* APTripFinderService.m in Sources */,
+				F76BEC081CB2742900D156E2 /* UIImage+APResize.m in Sources */,
 				F7A8E4301C95A8F300200A91 /* APTrackUtil.m in Sources */,
 				F7ED9A8E1C9549B1006EFB12 /* AppDelegate.m in Sources */,
 				F7C93DF91C9D9E57001C2028 /* APLocationManager.m in Sources */,
