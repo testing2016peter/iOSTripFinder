@@ -10,5 +10,5 @@
 #import "APTrackUtil.h"
 
 @interface APBaseViewController : UIViewController
-
+- (void)setupView;
 @end

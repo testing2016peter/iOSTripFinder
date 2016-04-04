@@ -33,6 +33,12 @@
 		F7A8E4331C95A96900200A91 /* APTrackConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A8E4321C95A96900200A91 /* APTrackConstant.m */; };
 		F7A8E4361C95AA6700200A91 /* APBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A8E4351C95AA6700200A91 /* APBaseViewController.m */; };
 		F7A976581C954F2900DA57B8 /* APClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A976571C954F2900DA57B8 /* APClient.m */; };
+		F7BB55BE1CB2432B00EAF3A9 /* APSearchListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BB55BC1CB2432B00EAF3A9 /* APSearchListCollectionViewCell.m */; };
+		F7BB55BF1CB2432B00EAF3A9 /* APSearchListCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7BB55BD1CB2432B00EAF3A9 /* APSearchListCollectionViewCell.xib */; };
+		F7BB55C31CB2467E00EAF3A9 /* APBaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BB55C21CB2467E00EAF3A9 /* APBaseCollectionViewCell.m */; };
+		F7BB55C71CB255F500EAF3A9 /* APNibCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BB55C61CB255F500EAF3A9 /* APNibCacheManager.m */; };
+		F7BB55CA1CB2564200EAF3A9 /* APNibSizeCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BB55C91CB2564200EAF3A9 /* APNibSizeCalculator.m */; };
+		F7BB55CD1CB2565700EAF3A9 /* APCalculatorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BB55CC1CB2565700EAF3A9 /* APCalculatorHelper.m */; };
 		F7C93DF91C9D9E57001C2028 /* APLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C93DF81C9D9E57001C2028 /* APLocationManager.m */; };
 		F7C93E0E1C9DAEF2001C2028 /* APLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C93E0D1C9DAEF2001C2028 /* APLocation.m */; };
 		F7ED9A8B1C9549B1006EFB12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ED9A8A1C9549B1006EFB12 /* main.m */; };
@@ -108,6 +114,17 @@
 		F7A8E4351C95AA6700200A91 /* APBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APBaseViewController.m; sourceTree = "<group>"; };
 		F7A976561C954F2900DA57B8 /* APClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APClient.h; sourceTree = "<group>"; };
 		F7A976571C954F2900DA57B8 /* APClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APClient.m; sourceTree = "<group>"; };
+		F7BB55BB1CB2432B00EAF3A9 /* APSearchListCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APSearchListCollectionViewCell.h; sourceTree = "<group>"; };
+		F7BB55BC1CB2432B00EAF3A9 /* APSearchListCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APSearchListCollectionViewCell.m; sourceTree = "<group>"; };
+		F7BB55BD1CB2432B00EAF3A9 /* APSearchListCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APSearchListCollectionViewCell.xib; sourceTree = "<group>"; };
+		F7BB55C11CB2467E00EAF3A9 /* APBaseCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APBaseCollectionViewCell.h; sourceTree = "<group>"; };
+		F7BB55C21CB2467E00EAF3A9 /* APBaseCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APBaseCollectionViewCell.m; sourceTree = "<group>"; };
+		F7BB55C51CB255F500EAF3A9 /* APNibCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNibCacheManager.h; sourceTree = "<group>"; };
+		F7BB55C61CB255F500EAF3A9 /* APNibCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APNibCacheManager.m; sourceTree = "<group>"; };
+		F7BB55C81CB2564200EAF3A9 /* APNibSizeCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APNibSizeCalculator.h; sourceTree = "<group>"; };
+		F7BB55C91CB2564200EAF3A9 /* APNibSizeCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APNibSizeCalculator.m; sourceTree = "<group>"; };
+		F7BB55CB1CB2565700EAF3A9 /* APCalculatorHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCalculatorHelper.h; sourceTree = "<group>"; };
+		F7BB55CC1CB2565700EAF3A9 /* APCalculatorHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCalculatorHelper.m; sourceTree = "<group>"; };
 		F7C93DF71C9D9E57001C2028 /* APLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLocationManager.h; sourceTree = "<group>"; };
 		F7C93DF81C9D9E57001C2028 /* APLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLocationManager.m; sourceTree = "<group>"; };
 		F7C93E0C1C9DAEF2001C2028 /* APLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLocation.h; sourceTree = "<group>"; };
@@ -280,6 +297,7 @@
 		F7A9764F1C954D8D00DA57B8 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				F7BB55C41CB255E000EAF3A9 /* Layout */,
 				F7606FB21CA7DA4E004CE9A4 /* Cache */,
 				F7C93E001C9DABE1001C2028 /* Views */,
 				F7C93DF61C9D9E3D001C2028 /* Location */,
@@ -299,6 +317,28 @@
 				F738F92A1C9553BD00545537 /* APTripFinderService.m */,
 			);
 			path = Client;
+			sourceTree = "<group>";
+		};
+		F7BB55C01CB2466E00EAF3A9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F7BB55C11CB2467E00EAF3A9 /* APBaseCollectionViewCell.h */,
+				F7BB55C21CB2467E00EAF3A9 /* APBaseCollectionViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F7BB55C41CB255E000EAF3A9 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				F7BB55C51CB255F500EAF3A9 /* APNibCacheManager.h */,
+				F7BB55C61CB255F500EAF3A9 /* APNibCacheManager.m */,
+				F7BB55C81CB2564200EAF3A9 /* APNibSizeCalculator.h */,
+				F7BB55C91CB2564200EAF3A9 /* APNibSizeCalculator.m */,
+				F7BB55CB1CB2565700EAF3A9 /* APCalculatorHelper.h */,
+				F7BB55CC1CB2565700EAF3A9 /* APCalculatorHelper.m */,
+			);
+			path = Layout;
 			sourceTree = "<group>";
 		};
 		F7C93DF61C9D9E3D001C2028 /* Location */ = {
@@ -329,6 +369,7 @@
 		F7C93E001C9DABE1001C2028 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F7BB55C01CB2466E00EAF3A9 /* Cells */,
 				F7C93E011C9DABF7001C2028 /* UsersData */,
 			);
 			path = Views;
@@ -344,6 +385,9 @@
 		F7E823861CB1797B004CED1E /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				F7BB55BB1CB2432B00EAF3A9 /* APSearchListCollectionViewCell.h */,
+				F7BB55BC1CB2432B00EAF3A9 /* APSearchListCollectionViewCell.m */,
+				F7BB55BD1CB2432B00EAF3A9 /* APSearchListCollectionViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -523,6 +567,7 @@
 				F7606FC31CA7EE6D004CE9A4 /* APSearchListViewController.xib in Resources */,
 				F738F9331C9554DB00545537 /* APSignInViewController.xib in Resources */,
 				F738F9391C955E1100545537 /* APUserViewController.xib in Resources */,
+				F7BB55BF1CB2432B00EAF3A9 /* APSearchListCollectionViewCell.xib in Resources */,
 				F7ED9A991C9549B1006EFB12 /* LaunchScreen.storyboard in Resources */,
 				F7606FBD1CA7E386004CE9A4 /* APSignUpSuccessViewController.xib in Resources */,
 				F7ED9A961C9549B1006EFB12 /* Assets.xcassets in Resources */,
@@ -603,12 +648,17 @@
 				F738F9381C955E1100545537 /* APUserViewController.m in Sources */,
 				F738F9401C9565E600545537 /* APUser.m in Sources */,
 				F7A8E4361C95AA6700200A91 /* APBaseViewController.m in Sources */,
+				F7BB55C31CB2467E00EAF3A9 /* APBaseCollectionViewCell.m in Sources */,
 				F7606FB81CA7DAEE004CE9A4 /* APCacheData.m in Sources */,
 				F7A8E4331C95A96900200A91 /* APTrackConstant.m in Sources */,
+				F7BB55C71CB255F500EAF3A9 /* APNibCacheManager.m in Sources */,
 				F7A976581C954F2900DA57B8 /* APClient.m in Sources */,
 				F7606FA81CA7D71C004CE9A4 /* APSignUpGenderViewController.m in Sources */,
+				F7BB55CD1CB2565700EAF3A9 /* APCalculatorHelper.m in Sources */,
 				F7606FC21CA7EE6D004CE9A4 /* APSearchListViewController.m in Sources */,
 				F7606FA31CA7D4C5004CE9A4 /* APSignUpNickNameViewController.m in Sources */,
+				F7BB55CA1CB2564200EAF3A9 /* APNibSizeCalculator.m in Sources */,
+				F7BB55BE1CB2432B00EAF3A9 /* APSearchListCollectionViewCell.m in Sources */,
 				F738F92B1C9553BD00545537 /* APTripFinderService.m in Sources */,
 				F7A8E4301C95A8F300200A91 /* APTrackUtil.m in Sources */,
 				F7ED9A8E1C9549B1006EFB12 /* AppDelegate.m in Sources */,

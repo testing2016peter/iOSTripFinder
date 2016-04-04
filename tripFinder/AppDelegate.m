@@ -10,6 +10,7 @@
 #import "APSignInViewController.h"
 #import "Flurry.h"
 #import "APTrackUtil.h"
+#import "APSearchListViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -21,7 +22,7 @@
     // Override point for customization after application launch.
     [APTrackUtil startSession];
 
-    APSignInViewController *vc = [[APSignInViewController alloc] init];
+    APSearchListViewController *vc = [[APSearchListViewController alloc] init];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];

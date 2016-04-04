@@ -6,9 +6,8 @@
 //  Copyright © 2016 Anson Ng. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-@interface APSearchListViewController : UIViewController
+#import "APBaseViewController.h"
+@interface APSearchListViewController : APBaseViewController
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 
 @end
