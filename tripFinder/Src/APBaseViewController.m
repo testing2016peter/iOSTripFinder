@@ -20,6 +20,15 @@
     [APTrackUtil logEvent:[self screenName] withParameters:nil];
 }
 
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+    [self setupView];
+}
+
+- (void)setupView
+{
+}
 - (NSString *)screenName
 {
     return NSStringFromClass([self class]);
