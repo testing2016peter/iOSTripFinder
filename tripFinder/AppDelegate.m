@@ -13,6 +13,8 @@
 #import "APSearchListViewController.h"
 #import "APTabbarViewController.h"
 #import "UIImage+APResize.h"
+#import <TLYShyNavBar/TLYShyNavBarManager.h>
+
 @interface AppDelegate ()
 
 @end
