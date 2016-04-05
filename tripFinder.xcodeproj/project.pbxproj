@@ -29,6 +29,7 @@
 		F7606FC31CA7EE6D004CE9A4 /* APSearchListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7606FC11CA7EE6D004CE9A4 /* APSearchListViewController.xib */; };
 		F76BEC041CB25F8D00D156E2 /* APTabbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76BEC031CB25F8D00D156E2 /* APTabbarViewController.m */; };
 		F76BEC081CB2742900D156E2 /* UIImage+APResize.m in Sources */ = {isa = PBXBuildFile; fileRef = F76BEC071CB2742900D156E2 /* UIImage+APResize.m */; };
+		F78FA88C1CB2AAC300E0CA2D /* UIColor+APColor.m in Sources */ = {isa = PBXBuildFile; fileRef = F78FA88B1CB2AAC300E0CA2D /* UIColor+APColor.m */; };
 		F7A8E31E1C95A80200200A91 /* libFlurry_7.5.2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A8E1F91C95A80100200A91 /* libFlurry_7.5.2.a */; };
 		F7A8E42C1C95A82600200A91 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A8E42B1C95A82600200A91 /* Security.framework */; };
 		F7A8E4301C95A8F300200A91 /* APTrackUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F7A8E42F1C95A8F300200A91 /* APTrackUtil.m */; };
@@ -109,6 +110,8 @@
 		F76BEC031CB25F8D00D156E2 /* APTabbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APTabbarViewController.m; sourceTree = "<group>"; };
 		F76BEC061CB2742900D156E2 /* UIImage+APResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+APResize.h"; sourceTree = "<group>"; };
 		F76BEC071CB2742900D156E2 /* UIImage+APResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+APResize.m"; sourceTree = "<group>"; };
+		F78FA88A1CB2AAC300E0CA2D /* UIColor+APColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+APColor.h"; sourceTree = "<group>"; };
+		F78FA88B1CB2AAC300E0CA2D /* UIColor+APColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+APColor.m"; sourceTree = "<group>"; };
 		F7A8E1F71C95A80100200A91 /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
 		F7A8E1F91C95A80100200A91 /* libFlurry_7.5.2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_7.5.2.a; sourceTree = "<group>"; };
 		F7A8E42B1C95A82600200A91 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
@@ -270,8 +273,17 @@
 			children = (
 				F76BEC061CB2742900D156E2 /* UIImage+APResize.h */,
 				F76BEC071CB2742900D156E2 /* UIImage+APResize.m */,
+				F78FA88A1CB2AAC300E0CA2D /* UIColor+APColor.h */,
+				F78FA88B1CB2AAC300E0CA2D /* UIColor+APColor.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		F78FA8891CB2AA5700E0CA2D /* Color */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Color;
 			sourceTree = "<group>";
 		};
 		F7A8E1F51C95A80100200A91 /* Flurry-iOS-7.5.2 */ = {
@@ -322,6 +334,7 @@
 		F7A9764F1C954D8D00DA57B8 /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				F78FA8891CB2AA5700E0CA2D /* Color */,
 				F76BEC051CB2741000D156E2 /* Category */,
 				F7BB55C41CB255E000EAF3A9 /* Layout */,
 				F7606FB21CA7DA4E004CE9A4 /* Cache */,
@@ -676,6 +689,7 @@
 				F7A8E4361C95AA6700200A91 /* APBaseViewController.m in Sources */,
 				F7BB55C31CB2467E00EAF3A9 /* APBaseCollectionViewCell.m in Sources */,
 				F7606FB81CA7DAEE004CE9A4 /* APCacheData.m in Sources */,
+				F78FA88C1CB2AAC300E0CA2D /* UIColor+APColor.m in Sources */,
 				F7A8E4331C95A96900200A91 /* APTrackConstant.m in Sources */,
 				F7BB55C71CB255F500EAF3A9 /* APNibCacheManager.m in Sources */,
 				F7A976581C954F2900DA57B8 /* APClient.m in Sources */,

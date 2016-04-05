@@ -10,4 +10,6 @@
 
 @interface UIColor (APColor)
 
++ (UIColor *)APNavColor;
++ (UIColor *)APActionColor;
 @end

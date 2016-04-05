@@ -14,6 +14,8 @@
 #import "APTabbarViewController.h"
 #import "UIImage+APResize.h"
 #import <TLYShyNavBar/TLYShyNavBarManager.h>
+#import "UIColor+APColor.h"
+
 
 @interface AppDelegate ()
 
@@ -88,10 +90,10 @@
     apSearchListViewController.tabBarItem.imageInsets = tabBarImageEdgeInsets;
 
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:apSearchListViewController];
+    navigationController.navigationBar.barTintColor = [UIColor APNavColor];
     [self.tabBarController addChildViewController:navigationController];
 
     //2.search
-
     APSearchListViewController *apSearchListViewController2 = [[APSearchListViewController alloc] init];
     apSearchListViewController2.tabBarItem.image = [UIImage imageNamed:@"Icon-Activity-Feed-Filled"];
     apSearchListViewController2.tabBarItem.imageInsets = tabBarImageEdgeInsets;

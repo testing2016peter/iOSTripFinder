@@ -1,3 +1,32 @@
+# Created by https://www.gitignore.io/api/xcode
+
+### Xcode ###
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+
+
 #########################
 # gitignore file for Xcode4 and Xcode5 Source projects
 #
@@ -214,7 +243,7 @@ xcuserdata
 !Manifest.lock
 
 # This directory contains checkout information.  Each one may fork their own copy then work from there, so we're stepping on each other if put the directory in repo.
-ECAuctionApp.xcworkspace/xcshareddata
+tripFinder.xcworkspace/xcuserdata
 
 # ignore iOS 9 code coverage build file
 *.gcno

@@ -24,13 +24,10 @@
 
 - (void)setupCollectionView
 {
-
     [self.collectionView registerNib:[UINib nibWithNibName:APSearchListCollectionViewCellIdentified bundle:nil] forCellWithReuseIdentifier:APSearchListCollectionViewCellIdentified];
     TLYShyNavBarManager *shyManager = [[TLYShyNavBarManager alloc] init];
-
     self.shyNavBarManager = shyManager;
     self.shyNavBarManager.scrollView = self.collectionView;
-    
 }
 
 
