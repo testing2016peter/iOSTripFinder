@@ -44,6 +44,10 @@
 		F7BB55CD1CB2565700EAF3A9 /* APCalculatorHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F7BB55CC1CB2565700EAF3A9 /* APCalculatorHelper.m */; };
 		F7C93DF91C9D9E57001C2028 /* APLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C93DF81C9D9E57001C2028 /* APLocationManager.m */; };
 		F7C93E0E1C9DAEF2001C2028 /* APLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = F7C93E0D1C9DAEF2001C2028 /* APLocation.m */; };
+		F7E18FBF1CB3C79F007516D2 /* APSearchListImagesCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E18FBD1CB3C79F007516D2 /* APSearchListImagesCollectionViewCell.m */; };
+		F7E18FC01CB3C79F007516D2 /* APSearchListImagesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E18FBE1CB3C79F007516D2 /* APSearchListImagesCollectionViewCell.xib */; };
+		F7E18FC41CB3CBFA007516D2 /* APImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7E18FC21CB3CBFA007516D2 /* APImageCollectionViewCell.m */; };
+		F7E18FC51CB3CBFA007516D2 /* APImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7E18FC31CB3CBFA007516D2 /* APImageCollectionViewCell.xib */; };
 		F7ED9A8B1C9549B1006EFB12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ED9A8A1C9549B1006EFB12 /* main.m */; };
 		F7ED9A8E1C9549B1006EFB12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ED9A8D1C9549B1006EFB12 /* AppDelegate.m */; };
 		F7ED9A941C9549B1006EFB12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7ED9A921C9549B1006EFB12 /* Main.storyboard */; };
@@ -138,6 +142,12 @@
 		F7C93DF81C9D9E57001C2028 /* APLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLocationManager.m; sourceTree = "<group>"; };
 		F7C93E0C1C9DAEF2001C2028 /* APLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APLocation.h; sourceTree = "<group>"; };
 		F7C93E0D1C9DAEF2001C2028 /* APLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APLocation.m; sourceTree = "<group>"; };
+		F7E18FBC1CB3C79F007516D2 /* APSearchListImagesCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APSearchListImagesCollectionViewCell.h; sourceTree = "<group>"; };
+		F7E18FBD1CB3C79F007516D2 /* APSearchListImagesCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APSearchListImagesCollectionViewCell.m; sourceTree = "<group>"; };
+		F7E18FBE1CB3C79F007516D2 /* APSearchListImagesCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APSearchListImagesCollectionViewCell.xib; sourceTree = "<group>"; };
+		F7E18FC11CB3CBFA007516D2 /* APImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APImageCollectionViewCell.h; sourceTree = "<group>"; };
+		F7E18FC21CB3CBFA007516D2 /* APImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APImageCollectionViewCell.m; sourceTree = "<group>"; };
+		F7E18FC31CB3CBFA007516D2 /* APImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = APImageCollectionViewCell.xib; sourceTree = "<group>"; };
 		F7ED9A861C9549B1006EFB12 /* tripFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tripFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7ED9A8A1C9549B1006EFB12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7ED9A8C1C9549B1006EFB12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -363,6 +373,9 @@
 			children = (
 				F7BB55C11CB2467E00EAF3A9 /* APBaseCollectionViewCell.h */,
 				F7BB55C21CB2467E00EAF3A9 /* APBaseCollectionViewCell.m */,
+				F7E18FC11CB3CBFA007516D2 /* APImageCollectionViewCell.h */,
+				F7E18FC21CB3CBFA007516D2 /* APImageCollectionViewCell.m */,
+				F7E18FC31CB3CBFA007516D2 /* APImageCollectionViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -427,6 +440,9 @@
 				F7BB55BB1CB2432B00EAF3A9 /* APSearchListCollectionViewCell.h */,
 				F7BB55BC1CB2432B00EAF3A9 /* APSearchListCollectionViewCell.m */,
 				F7BB55BD1CB2432B00EAF3A9 /* APSearchListCollectionViewCell.xib */,
+				F7E18FBC1CB3C79F007516D2 /* APSearchListImagesCollectionViewCell.h */,
+				F7E18FBD1CB3C79F007516D2 /* APSearchListImagesCollectionViewCell.m */,
+				F7E18FBE1CB3C79F007516D2 /* APSearchListImagesCollectionViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -602,6 +618,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7606FA41CA7D4C5004CE9A4 /* APSignUpNickNameViewController.xib in Resources */,
+				F7E18FC01CB3C79F007516D2 /* APSearchListImagesCollectionViewCell.xib in Resources */,
 				F7606FA91CA7D71C004CE9A4 /* APSignUpGenderViewController.xib in Resources */,
 				F7606FC31CA7EE6D004CE9A4 /* APSearchListViewController.xib in Resources */,
 				F738F9331C9554DB00545537 /* APSignInViewController.xib in Resources */,
@@ -609,6 +626,7 @@
 				F7BB55BF1CB2432B00EAF3A9 /* APSearchListCollectionViewCell.xib in Resources */,
 				F7ED9A991C9549B1006EFB12 /* LaunchScreen.storyboard in Resources */,
 				F7606FBD1CA7E386004CE9A4 /* APSignUpSuccessViewController.xib in Resources */,
+				F7E18FC51CB3CBFA007516D2 /* APImageCollectionViewCell.xib in Resources */,
 				F7ED9A961C9549B1006EFB12 /* Assets.xcassets in Resources */,
 				F7ED9A941C9549B1006EFB12 /* Main.storyboard in Resources */,
 			);
@@ -698,6 +716,7 @@
 				F7606FC21CA7EE6D004CE9A4 /* APSearchListViewController.m in Sources */,
 				F7606FA31CA7D4C5004CE9A4 /* APSignUpNickNameViewController.m in Sources */,
 				F7BB55CA1CB2564200EAF3A9 /* APNibSizeCalculator.m in Sources */,
+				F7E18FBF1CB3C79F007516D2 /* APSearchListImagesCollectionViewCell.m in Sources */,
 				F7BB55BE1CB2432B00EAF3A9 /* APSearchListCollectionViewCell.m in Sources */,
 				F738F92B1C9553BD00545537 /* APTripFinderService.m in Sources */,
 				F76BEC081CB2742900D156E2 /* UIImage+APResize.m in Sources */,
@@ -711,6 +730,7 @@
 				F7606FBC1CA7E386004CE9A4 /* APSignUpSuccessViewController.m in Sources */,
 				F738F93D1C9565BF00545537 /* APBaseJSONModel.m in Sources */,
 				F738F9431C95671A00545537 /* APTripFinderAppConstant.m in Sources */,
+				F7E18FC41CB3CBFA007516D2 /* APImageCollectionViewCell.m in Sources */,
 				F738F9461C95694000545537 /* APConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
